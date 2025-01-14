@@ -1,3 +1,5 @@
 bots/.env
 bots/.env
-backrooms/backrooms-ui/.env
+backrooms/backrooms-client/.env
+backrooms/backrooms-server/.env
+.env
