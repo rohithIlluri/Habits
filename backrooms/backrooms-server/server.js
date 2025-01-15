@@ -1,7 +1,7 @@
-// server.js
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
+const winston = require('winston');
 require('dotenv').config();
 const axios = require('axios');
 
@@ -14,63 +14,90 @@ const io = new Server(server, {
   },
 });
 
-let context = "Two bots are trapped in the backrooms. They must discuss and navigate their way out, speaking English and helping each other.";
+// Logger setup with winston
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.printf(({ timestamp, level, message }) => {
+      return `${timestamp} [${level.toUpperCase()}]: ${message}`;
+    })
+  ),
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: 'server.log' }),
+  ],
+});
 
-const fetchGPTResponse = async (prompt, apiKey, model) => {
+// Preloaded Portfolio Data
+const portfolioContext = `
+You are an AI portfolio assistant for Sree Naga Rohith Reddy Illuri. Your job is to professionally and engagingly answer user questions about Sree's skills, experience, projects, and contact details. Always provide friendly, precise, and informative responses. Here's the portfolio summary:
+
+**Skills:** Java 8/11/17, Spring Boot, Microservices, React.js, Angular, AWS, Azure, GCP, Docker, Kubernetes, REST APIs.
+
+**Key Projects:**
+1. **Distributed Payment Architecture:** Designed a scalable payment system supporting real-time transactions and fraud detection.
+2. **Blockchain Development:** Built Solana smart contracts for NFT minting and staking, integrated with Web3.js.
+
+**Experience:**
+1. **Full Stack Developer at MasterCard Data & Services (2020–Present):** Developed enterprise-grade applications, implemented microservices, and ensured zero downtime in production.
+2. **Developer at Just Pay (2021–2022):** Migrated monolith to microservices, built real-time analytics pipelines.
+
+**Education:** 
+- Masters in Information Technology from the University of the Cumberlands (2024).
+- Bachelors in Mechanical Engineering from JNTU Hyderabad (2021).
+
+**Contact Information:** Email: rohith.illuri@gmail.com | GitHub: https://github.com/rohithIlluri | LinkedIn: https://www.linkedin.com/in/sree-naga-rohith-reddy-illuri-99258a1ab/ | Phone: (314) 704-9516.
+
+Respond professionally to user queries. Keep responses concise but thorough.
+`;
+
+// Fetch GPT-4 Response
+const fetchGPTResponse = async (userMessage) => {
+  const prompt = `${portfolioContext}\n\nUser: ${userMessage}\nBot:`;
   try {
     const response = await axios.post(
-      'https://api.openai.com/v1/completions',
+      'https://api.openai.com/v1/chat/completions',
       {
-        model: model,
-        prompt: prompt,
-        max_tokens: 150,
+        model: 'gpt-4',
+        messages: [
+          { role: 'system', content: portfolioContext },
+          { role: 'user', content: userMessage },
+        ],
+        max_tokens: 300,
         temperature: 0.7,
-        stop: ["babbage-002:", "davinci-002:"],
+        stop: ['User:', 'Bot:'],
       },
       {
         headers: {
-          Authorization: `Bearer ${apiKey}`,
+          Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
         },
       }
     );
-    return response.data.choices[0].text.trim();
+    logger.info(`Response fetched successfully for message: "${userMessage}"`);
+    return response.data.choices[0].message.content.trim();
   } catch (error) {
-    console.error(`Error fetching GPT response: ${error.response?.data || error.message}`);
-    return 'Error generating GPT response.';
+    logger.error(`Error fetching GPT-4 response: ${error.message}`);
+    return "I'm sorry, I couldn't process your request at the moment. Please try again later.";
   }
 };
 
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
+// Socket.io Events
 io.on('connection', (socket) => {
-  console.log('A user connected');
-  let botAResponse = `davinci-002: ${context}`;
+  logger.info('A user connected');
 
-  (async () => {
-    for (let i = 0; i < 5; i++) {
-      io.emit('message', { sender: 'davinci-002', text: botAResponse });
-      const botBResponse = await fetchGPTResponse(
-        `${botAResponse}\n\nbabbage-002:`,
-        process.env.OPENAI_API_KEY_BOT_B,
-        'babbage-002'
-      );
-      io.emit('message', { sender: 'babbage-002', text: botBResponse });
+  socket.on('user-message', async (data) => {
+    const userMessage = data.text;
+    logger.info(`Received message: "${userMessage}" from user`);
+    const botResponse = await fetchGPTResponse(userMessage);
+    io.emit('bot-response', { sender: 'Portfolio Bot', text: botResponse });
+  });
 
-      await delay(5000);
-
-      botAResponse = await fetchGPTResponse(
-        `${botBResponse}\n\ndavinci-002:`,
-        process.env.OPENAI_API_KEY_BOT_A,
-        'davinci-002'
-      );
-      io.emit('message', { sender: 'davinci-002', text: botAResponse });
-
-      await delay(5000);
-    }
-    console.log('Bot conversation completed.');
-  })();
+  socket.on('disconnect', () => {
+    logger.info('A user disconnected');
+  });
 });
 
 server.listen(4000, () => {
-  console.log('Server is running on http://localhost:4000');
+  logger.info('Server is running on http://localhost:4000');
 });

@@ -1,0 +1,13 @@
+{
+  "babbage-002": [],
+  "davinci-002": [
+    {
+      "from": "user",
+      "text": "aaa"
+    },
+    {
+      "from": "davinci-002",
+      "text": "I’m sorry, I encountered an issue while thinking."
+    }
+  ]
+}
