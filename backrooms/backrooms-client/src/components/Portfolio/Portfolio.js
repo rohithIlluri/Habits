@@ -29,7 +29,7 @@ const Portfolio = () => {
       title: 'Education',
       content: resumeData.education
         .map((edu) => `${edu.degree} from ${edu.institution} (${edu.year})`)
-        .join('\n'),
+        .join('\n\n'),
     },
   ];
 

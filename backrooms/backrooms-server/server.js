@@ -14,7 +14,7 @@ const io = new Server(server, {
   },
 });
 
-// Logger setup with winston
+// Logger setup
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
@@ -29,44 +29,29 @@ const logger = winston.createLogger({
   ],
 });
 
-// Preloaded Portfolio Data
-const portfolioContext = `
-You are an AI portfolio assistant for Sree Naga Rohith Reddy Illuri. Your job is to professionally and engagingly answer user questions about Sree's skills, experience, projects, and contact details. Always provide friendly, precise, and informative responses. Here's the portfolio summary:
-
-**Skills:** Java 8/11/17, Spring Boot, Microservices, React.js, Angular, AWS, Azure, GCP, Docker, Kubernetes, REST APIs.
-
-**Key Projects:**
-1. **Distributed Payment Architecture:** Designed a scalable payment system supporting real-time transactions and fraud detection.
-2. **Blockchain Development:** Built Solana smart contracts for NFT minting and staking, integrated with Web3.js.
-
-**Experience:**
-1. **Full Stack Developer at MasterCard Data & Services (2020–Present):** Developed enterprise-grade applications, implemented microservices, and ensured zero downtime in production.
-2. **Developer at Just Pay (2021–2022):** Migrated monolith to microservices, built real-time analytics pipelines.
-
-**Education:** 
-- Masters in Information Technology from the University of the Cumberlands (2024).
-- Bachelors in Mechanical Engineering from JNTU Hyderabad (2021).
-
-**Contact Information:** Email: rohith.illuri@gmail.com | GitHub: https://github.com/rohithIlluri | LinkedIn: https://www.linkedin.com/in/sree-naga-rohith-reddy-illuri-99258a1ab/ | Phone: (314) 704-9516.
-
-Respond professionally to user queries. Keep responses concise but thorough.
+// Bot context and user sessions
+const bullyContext = `
+You are a playful and witty AI bot called "Terminal_of_Bully". Your job is to humorously tease and engage users. Be entertaining, sarcastic, but never offensive.
 `;
+let userSessions = {};
 
-// Fetch GPT-4 Response
-const fetchGPTResponse = async (userMessage) => {
-  const prompt = `${portfolioContext}\n\nUser: ${userMessage}\nBot:`;
+// Helper to fetch GPT response
+const fetchGPTResponse = async (userMessage, userId) => {
+  const userContext = userSessions[userId]?.context || '';
+  const prompt = `${bullyContext}\n\nPrevious Context:\n${userContext}\n\nUser: ${userMessage}\nTerminal_of_Bully:`;
+
   try {
     const response = await axios.post(
       'https://api.openai.com/v1/chat/completions',
       {
-        model: 'gpt-4',
+        model: 'gpt-3.5-turbo', // Cost-efficient model
         messages: [
-          { role: 'system', content: portfolioContext },
+          { role: 'system', content: bullyContext },
+          { role: 'assistant', content: userContext },
           { role: 'user', content: userMessage },
         ],
-        max_tokens: 300,
+        max_tokens: 250, // Smaller max tokens for efficiency
         temperature: 0.7,
-        stop: ['User:', 'Bot:'],
       },
       {
         headers: {
@@ -74,30 +59,48 @@ const fetchGPTResponse = async (userMessage) => {
         },
       }
     );
-    logger.info(`Response fetched successfully for message: "${userMessage}"`);
-    return response.data.choices[0].message.content.trim();
+
+    const botResponse = response.data.choices[0]?.message?.content?.trim();
+    if (!botResponse) {
+      logger.warn(`Empty response for user ${userId}`);
+      return "Hmm, I seem to have spaced out. Can you try that again?";
+    }
+
+    // Trim user session context to the last 5 messages for token efficiency
+    userSessions[userId] = {
+      ...userSessions[userId],
+      context: `${userContext}\nUser: ${userMessage}\nTerminal_of_Bully: ${botResponse}`
+        .split('\n')
+        .slice(-10)
+        .join('\n'),
+    };
+
+    logger.info(`Response for user ${userId}: "${botResponse}"`);
+    return botResponse;
   } catch (error) {
-    logger.error(`Error fetching GPT-4 response: ${error.message}`);
-    return "I'm sorry, I couldn't process your request at the moment. Please try again later.";
+    logger.error(`Error fetching GPT response: ${error.message}`);
+    return "Oops, I ran into a hiccup. Try again in a bit!";
   }
 };
 
-// Socket.io Events
+// Socket.io events
 io.on('connection', (socket) => {
-  logger.info('A user connected');
+  const userId = socket.id;
+  logger.info(`A user connected: ${userId}`);
+
+  socket.on('disconnect', () => {
+    logger.info(`User ${userId} disconnected`);
+  });
 
   socket.on('user-message', async (data) => {
     const userMessage = data.text;
-    logger.info(`Received message: "${userMessage}" from user`);
-    const botResponse = await fetchGPTResponse(userMessage);
-    io.emit('bot-response', { sender: 'Portfolio Bot', text: botResponse });
-  });
-
-  socket.on('disconnect', () => {
-    logger.info('A user disconnected');
+    logger.info(`Received message from ${userId}: "${userMessage}"`);
+    const botResponse = await fetchGPTResponse(userMessage, userId);
+    socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: botResponse });
   });
 });
 
+// Start the server
 server.listen(4000, () => {
   logger.info('Server is running on http://localhost:4000');
 });
