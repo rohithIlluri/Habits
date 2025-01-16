@@ -1275,3 +1275,876 @@
 2025-01-15T22:50:52.667Z [INFO]: A user disconnected
 2025-01-15T22:50:52.669Z [INFO]: A user connected
 2025-01-15T22:50:52.670Z [INFO]: A user connected
+2025-01-16T15:35:56.682Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T15:36:18.334Z [INFO]: A user connected
+2025-01-16T15:36:25.456Z [INFO]: A user connected
+2025-01-16T15:36:25.459Z [INFO]: A user connected
+2025-01-16T15:36:25.809Z [INFO]: A user disconnected
+2025-01-16T15:36:25.810Z [INFO]: A user connected
+2025-01-16T15:36:25.812Z [INFO]: A user connected
+2025-01-16T15:36:25.991Z [INFO]: A user disconnected
+2025-01-16T15:36:25.993Z [INFO]: A user connected
+2025-01-16T15:36:25.994Z [INFO]: A user connected
+2025-01-16T15:36:26.261Z [INFO]: A user disconnected
+2025-01-16T15:36:26.263Z [INFO]: A user connected
+2025-01-16T15:36:26.265Z [INFO]: A user connected
+2025-01-16T15:36:26.346Z [INFO]: A user connected
+2025-01-16T15:36:26.348Z [INFO]: A user connected
+2025-01-16T15:36:26.384Z [INFO]: A user disconnected
+2025-01-16T15:36:26.559Z [INFO]: A user disconnected
+2025-01-16T15:36:26.561Z [INFO]: A user connected
+2025-01-16T15:36:26.563Z [INFO]: A user connected
+2025-01-16T15:36:26.591Z [INFO]: A user connected
+2025-01-16T15:36:26.592Z [INFO]: A user connected
+2025-01-16T15:36:26.680Z [INFO]: A user disconnected
+2025-01-16T15:36:26.740Z [INFO]: A user disconnected
+2025-01-16T15:36:26.741Z [INFO]: A user connected
+2025-01-16T15:36:26.743Z [INFO]: A user connected
+2025-01-16T15:36:28.056Z [INFO]: A user disconnected
+2025-01-16T15:36:28.058Z [INFO]: A user connected
+2025-01-16T15:36:28.060Z [INFO]: A user connected
+2025-01-16T15:36:28.297Z [INFO]: A user disconnected
+2025-01-16T15:36:28.298Z [INFO]: A user connected
+2025-01-16T15:36:28.300Z [INFO]: A user connected
+2025-01-16T15:36:28.475Z [INFO]: A user disconnected
+2025-01-16T15:36:28.476Z [INFO]: A user connected
+2025-01-16T15:36:28.477Z [INFO]: A user connected
+2025-01-16T15:36:28.595Z [INFO]: A user disconnected
+2025-01-16T15:36:28.596Z [INFO]: A user connected
+2025-01-16T15:36:28.598Z [INFO]: A user connected
+2025-01-16T15:36:28.715Z [INFO]: A user disconnected
+2025-01-16T15:36:28.716Z [INFO]: A user connected
+2025-01-16T15:36:28.717Z [INFO]: A user connected
+2025-01-16T15:36:29.048Z [INFO]: A user disconnected
+2025-01-16T15:36:29.050Z [INFO]: A user connected
+2025-01-16T15:36:29.052Z [INFO]: A user connected
+2025-01-16T15:36:29.378Z [INFO]: A user disconnected
+2025-01-16T15:36:29.381Z [INFO]: A user connected
+2025-01-16T15:36:29.382Z [INFO]: A user connected
+2025-01-16T15:36:29.497Z [INFO]: A user connected
+2025-01-16T15:36:29.498Z [INFO]: A user connected
+2025-01-16T15:36:29.499Z [INFO]: A user disconnected
+2025-01-16T15:36:29.645Z [INFO]: A user disconnected
+2025-01-16T15:36:29.646Z [INFO]: A user connected
+2025-01-16T15:36:29.647Z [INFO]: A user connected
+2025-01-16T15:36:29.974Z [INFO]: A user disconnected
+2025-01-16T15:36:29.976Z [INFO]: A user connected
+2025-01-16T15:36:29.977Z [INFO]: A user connected
+2025-01-16T15:36:30.790Z [INFO]: A user disconnected
+2025-01-16T15:36:30.792Z [INFO]: A user connected
+2025-01-16T15:36:30.793Z [INFO]: A user connected
+2025-01-16T15:36:32.596Z [INFO]: Received message: "Who are you ?" from user
+2025-01-16T15:36:32.660Z [INFO]: A user disconnected
+2025-01-16T15:36:32.662Z [INFO]: A user connected
+2025-01-16T15:36:32.663Z [INFO]: A user connected
+2025-01-16T15:36:34.993Z [INFO]: Response fetched successfully for message: "Who are you ?"
+2025-01-16T15:36:34.997Z [INFO]: A user disconnected
+2025-01-16T15:36:34.999Z [INFO]: A user connected
+2025-01-16T15:36:35.000Z [INFO]: A user connected
+2025-01-16T15:38:17.425Z [INFO]: A user disconnected
+2025-01-16T15:38:17.428Z [INFO]: A user disconnected
+2025-01-16T15:38:17.429Z [INFO]: A user disconnected
+2025-01-16T15:38:17.429Z [INFO]: A user disconnected
+2025-01-16T15:38:17.429Z [INFO]: A user disconnected
+2025-01-16T15:38:17.429Z [INFO]: A user disconnected
+2025-01-16T15:38:17.430Z [INFO]: A user disconnected
+2025-01-16T15:38:17.430Z [INFO]: A user disconnected
+2025-01-16T15:38:17.431Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.432Z [INFO]: A user disconnected
+2025-01-16T15:38:17.433Z [INFO]: A user disconnected
+2025-01-16T15:38:17.433Z [INFO]: A user disconnected
+2025-01-16T15:38:17.433Z [INFO]: A user disconnected
+2025-01-16T15:38:17.433Z [INFO]: A user disconnected
+2025-01-16T15:38:17.433Z [INFO]: A user disconnected
+2025-01-16T15:38:17.563Z [INFO]: A user connected
+2025-01-16T15:38:17.565Z [INFO]: A user connected
+2025-01-16T15:38:17.570Z [INFO]: A user disconnected
+2025-01-16T15:38:36.175Z [INFO]: A user connected
+2025-01-16T15:38:36.177Z [INFO]: A user connected
+2025-01-16T15:38:36.369Z [INFO]: A user disconnected
+2025-01-16T15:38:36.371Z [INFO]: A user connected
+2025-01-16T15:38:36.372Z [INFO]: A user connected
+2025-01-16T15:38:38.347Z [INFO]: Received message: "yo" from user
+2025-01-16T15:38:38.350Z [INFO]: A user disconnected
+2025-01-16T15:38:38.353Z [INFO]: A user connected
+2025-01-16T15:38:38.355Z [INFO]: A user connected
+2025-01-16T15:38:39.811Z [INFO]: Response fetched successfully for message: "yo"
+2025-01-16T15:38:39.815Z [INFO]: A user disconnected
+2025-01-16T15:38:39.817Z [INFO]: A user connected
+2025-01-16T15:38:39.819Z [INFO]: A user connected
+2025-01-16T15:40:38.682Z [INFO]: A user disconnected
+2025-01-16T15:40:38.683Z [INFO]: A user disconnected
+2025-01-16T15:40:38.683Z [INFO]: A user disconnected
+2025-01-16T15:40:38.683Z [INFO]: A user disconnected
+2025-01-16T15:40:38.683Z [INFO]: A user disconnected
+2025-01-16T15:40:38.683Z [INFO]: A user disconnected
+2025-01-16T15:40:38.816Z [INFO]: A user connected
+2025-01-16T15:40:38.819Z [INFO]: A user connected
+2025-01-16T15:40:38.824Z [INFO]: A user disconnected
+2025-01-16T15:41:39.614Z [INFO]: A user disconnected
+2025-01-16T15:41:39.746Z [INFO]: A user connected
+2025-01-16T15:41:39.747Z [INFO]: A user connected
+2025-01-16T15:41:39.754Z [INFO]: A user disconnected
+2025-01-16T15:44:41.999Z [INFO]: A user disconnected
+2025-01-16T15:44:42.119Z [INFO]: A user connected
+2025-01-16T15:44:42.123Z [INFO]: A user connected
+2025-01-16T15:44:42.127Z [INFO]: A user disconnected
+2025-01-16T15:44:42.355Z [INFO]: A user disconnected
+2025-01-16T15:44:42.406Z [INFO]: A user connected
+2025-01-16T15:44:55.515Z [INFO]: A user connected
+2025-01-16T15:44:55.517Z [INFO]: A user connected
+2025-01-16T15:44:56.051Z [INFO]: A user disconnected
+2025-01-16T15:44:56.052Z [INFO]: A user connected
+2025-01-16T15:44:56.053Z [INFO]: A user connected
+2025-01-16T15:44:56.296Z [INFO]: A user disconnected
+2025-01-16T15:44:56.297Z [INFO]: A user connected
+2025-01-16T15:44:56.298Z [INFO]: A user connected
+2025-01-16T15:44:56.445Z [INFO]: A user disconnected
+2025-01-16T15:44:56.448Z [INFO]: A user connected
+2025-01-16T15:44:56.449Z [INFO]: A user connected
+2025-01-16T15:44:59.166Z [INFO]: Received message: "Lead" from user
+2025-01-16T15:44:59.169Z [INFO]: A user disconnected
+2025-01-16T15:44:59.172Z [INFO]: A user connected
+2025-01-16T15:44:59.173Z [INFO]: A user connected
+2025-01-16T15:45:01.343Z [INFO]: Response fetched successfully for message: "Lead"
+2025-01-16T15:45:01.346Z [INFO]: A user disconnected
+2025-01-16T15:45:01.348Z [INFO]: A user connected
+2025-01-16T15:45:01.350Z [INFO]: A user connected
+2025-01-16T15:50:18.062Z [INFO]: A user disconnected
+2025-01-16T15:50:18.064Z [INFO]: A user disconnected
+2025-01-16T15:50:18.065Z [INFO]: A user disconnected
+2025-01-16T15:50:18.066Z [INFO]: A user disconnected
+2025-01-16T15:50:18.066Z [INFO]: A user disconnected
+2025-01-16T15:50:18.066Z [INFO]: A user disconnected
+2025-01-16T15:50:18.067Z [INFO]: A user disconnected
+2025-01-16T15:50:18.067Z [INFO]: A user disconnected
+2025-01-16T15:50:18.213Z [INFO]: A user connected
+2025-01-16T15:50:18.216Z [INFO]: A user connected
+2025-01-16T15:50:18.221Z [INFO]: A user disconnected
+2025-01-16T15:50:22.495Z [INFO]: A user connected
+2025-01-16T15:50:22.497Z [INFO]: A user connected
+2025-01-16T15:50:22.994Z [INFO]: A user disconnected
+2025-01-16T15:50:22.997Z [INFO]: A user connected
+2025-01-16T15:50:22.999Z [INFO]: A user connected
+2025-01-16T15:50:23.210Z [INFO]: A user disconnected
+2025-01-16T15:50:23.212Z [INFO]: A user connected
+2025-01-16T15:50:23.213Z [INFO]: A user connected
+2025-01-16T15:50:24.045Z [INFO]: A user disconnected
+2025-01-16T15:50:24.047Z [INFO]: A user connected
+2025-01-16T15:50:24.049Z [INFO]: A user connected
+2025-01-16T15:50:24.289Z [INFO]: A user disconnected
+2025-01-16T15:50:24.292Z [INFO]: A user connected
+2025-01-16T15:50:24.294Z [INFO]: A user connected
+2025-01-16T15:50:24.740Z [INFO]: A user disconnected
+2025-01-16T15:50:24.743Z [INFO]: A user connected
+2025-01-16T15:50:24.744Z [INFO]: A user connected
+2025-01-16T15:50:26.488Z [INFO]: Received message: "Wssup " from user
+2025-01-16T15:50:26.490Z [INFO]: A user disconnected
+2025-01-16T15:50:26.494Z [INFO]: A user connected
+2025-01-16T15:50:26.495Z [INFO]: A user connected
+2025-01-16T15:50:28.451Z [INFO]: Response fetched successfully for message: "Wssup "
+2025-01-16T15:50:28.454Z [INFO]: A user disconnected
+2025-01-16T15:50:28.458Z [INFO]: A user connected
+2025-01-16T15:50:28.459Z [INFO]: A user connected
+2025-01-16T15:51:05.749Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T15:51:07.685Z [INFO]: A user connected
+2025-01-16T15:51:07.687Z [INFO]: A user connected
+2025-01-16T15:51:07.689Z [INFO]: A user connected
+2025-01-16T15:51:07.693Z [INFO]: A user connected
+2025-01-16T15:51:07.696Z [INFO]: A user connected
+2025-01-16T15:51:07.701Z [INFO]: A user connected
+2025-01-16T15:51:09.680Z [INFO]: A user connected
+2025-01-16T15:51:09.681Z [INFO]: A user connected
+2025-01-16T15:51:09.682Z [INFO]: A user connected
+2025-01-16T15:51:10.163Z [INFO]: A user disconnected
+2025-01-16T15:51:10.165Z [INFO]: A user disconnected
+2025-01-16T15:51:10.165Z [INFO]: A user disconnected
+2025-01-16T15:51:10.166Z [INFO]: A user disconnected
+2025-01-16T15:51:10.166Z [INFO]: A user disconnected
+2025-01-16T15:51:10.166Z [INFO]: A user disconnected
+2025-01-16T15:51:10.166Z [INFO]: A user disconnected
+2025-01-16T15:51:10.167Z [INFO]: A user disconnected
+2025-01-16T15:51:10.167Z [INFO]: A user disconnected
+2025-01-16T15:51:19.058Z [INFO]: A user connected
+2025-01-16T15:51:19.063Z [INFO]: A user connected
+2025-01-16T15:51:19.116Z [INFO]: A user disconnected
+2025-01-16T15:51:21.467Z [INFO]: A user connected
+2025-01-16T15:51:21.469Z [INFO]: A user connected
+2025-01-16T15:51:22.010Z [INFO]: A user disconnected
+2025-01-16T15:51:22.012Z [INFO]: A user connected
+2025-01-16T15:51:22.013Z [INFO]: A user connected
+2025-01-16T15:51:22.214Z [INFO]: A user disconnected
+2025-01-16T15:51:22.216Z [INFO]: A user connected
+2025-01-16T15:51:22.217Z [INFO]: A user connected
+2025-01-16T15:51:22.364Z [INFO]: A user disconnected
+2025-01-16T15:51:22.366Z [INFO]: A user connected
+2025-01-16T15:51:22.367Z [INFO]: A user connected
+2025-01-16T15:51:22.544Z [INFO]: A user disconnected
+2025-01-16T15:51:22.546Z [INFO]: A user connected
+2025-01-16T15:51:22.547Z [INFO]: A user connected
+2025-01-16T15:51:22.844Z [INFO]: A user disconnected
+2025-01-16T15:51:22.846Z [INFO]: A user connected
+2025-01-16T15:51:22.847Z [INFO]: A user connected
+2025-01-16T15:51:24.641Z [INFO]: Received message: "Hello " from user
+2025-01-16T15:51:24.698Z [INFO]: A user disconnected
+2025-01-16T15:51:24.701Z [INFO]: A user connected
+2025-01-16T15:51:24.702Z [INFO]: A user connected
+2025-01-16T15:51:26.115Z [INFO]: Response fetched successfully for message: "Hello "
+2025-01-16T15:51:26.119Z [INFO]: A user disconnected
+2025-01-16T15:51:26.120Z [INFO]: A user connected
+2025-01-16T15:51:26.122Z [INFO]: A user connected
+2025-01-16T15:51:34.550Z [INFO]: A user disconnected
+2025-01-16T15:51:34.551Z [INFO]: A user connected
+2025-01-16T15:51:34.553Z [INFO]: A user connected
+2025-01-16T15:51:34.669Z [INFO]: A user connected
+2025-01-16T15:51:34.669Z [INFO]: A user disconnected
+2025-01-16T15:51:34.672Z [INFO]: A user connected
+2025-01-16T15:51:34.814Z [INFO]: A user disconnected
+2025-01-16T15:51:34.816Z [INFO]: A user connected
+2025-01-16T15:51:34.817Z [INFO]: A user connected
+2025-01-16T15:51:35.030Z [INFO]: A user disconnected
+2025-01-16T15:51:35.032Z [INFO]: A user connected
+2025-01-16T15:51:35.034Z [INFO]: A user connected
+2025-01-16T15:51:35.181Z [INFO]: A user disconnected
+2025-01-16T15:51:35.183Z [INFO]: A user connected
+2025-01-16T15:51:35.185Z [INFO]: A user connected
+2025-01-16T15:51:35.385Z [INFO]: A user disconnected
+2025-01-16T15:51:35.386Z [INFO]: A user connected
+2025-01-16T15:51:35.388Z [INFO]: A user connected
+2025-01-16T15:51:35.448Z [INFO]: A user connected
+2025-01-16T15:51:35.450Z [INFO]: A user connected
+2025-01-16T15:51:35.503Z [INFO]: A user disconnected
+2025-01-16T15:51:35.565Z [INFO]: A user disconnected
+2025-01-16T15:51:35.567Z [INFO]: A user connected
+2025-01-16T15:51:35.568Z [INFO]: A user connected
+2025-01-16T15:51:35.685Z [INFO]: A user disconnected
+2025-01-16T15:51:35.686Z [INFO]: A user connected
+2025-01-16T15:51:35.687Z [INFO]: A user connected
+2025-01-16T15:51:36.164Z [INFO]: A user disconnected
+2025-01-16T15:51:36.167Z [INFO]: A user connected
+2025-01-16T15:51:36.168Z [INFO]: A user connected
+2025-01-16T15:51:36.345Z [INFO]: A user disconnected
+2025-01-16T15:51:36.348Z [INFO]: A user connected
+2025-01-16T15:51:36.349Z [INFO]: A user connected
+2025-01-16T15:51:36.466Z [INFO]: A user disconnected
+2025-01-16T15:51:36.467Z [INFO]: A user connected
+2025-01-16T15:51:36.469Z [INFO]: A user connected
+2025-01-16T15:51:36.647Z [INFO]: A user disconnected
+2025-01-16T15:51:36.649Z [INFO]: A user connected
+2025-01-16T15:51:36.650Z [INFO]: A user connected
+2025-01-16T15:51:36.735Z [INFO]: A user connected
+2025-01-16T15:51:36.736Z [INFO]: A user connected
+2025-01-16T15:51:36.765Z [INFO]: A user disconnected
+2025-01-16T15:51:37.014Z [INFO]: A user disconnected
+2025-01-16T15:51:37.015Z [INFO]: A user connected
+2025-01-16T15:51:37.016Z [INFO]: A user connected
+2025-01-16T15:51:37.185Z [INFO]: A user disconnected
+2025-01-16T15:51:37.186Z [INFO]: A user connected
+2025-01-16T15:51:37.187Z [INFO]: A user connected
+2025-01-16T15:51:37.365Z [INFO]: A user disconnected
+2025-01-16T15:51:37.366Z [INFO]: A user connected
+2025-01-16T15:51:37.367Z [INFO]: A user connected
+2025-01-16T15:51:37.468Z [INFO]: A user connected
+2025-01-16T15:51:37.472Z [INFO]: A user connected
+2025-01-16T15:51:37.482Z [INFO]: A user disconnected
+2025-01-16T15:51:37.585Z [INFO]: A user connected
+2025-01-16T15:51:37.585Z [INFO]: A user disconnected
+2025-01-16T15:51:37.587Z [INFO]: A user connected
+2025-01-16T15:51:38.147Z [INFO]: A user disconnected
+2025-01-16T15:51:38.149Z [INFO]: A user connected
+2025-01-16T15:51:38.150Z [INFO]: A user connected
+2025-01-16T15:51:38.217Z [INFO]: A user connected
+2025-01-16T15:51:38.218Z [INFO]: A user connected
+2025-01-16T15:51:38.263Z [INFO]: A user disconnected
+2025-01-16T15:51:38.384Z [INFO]: A user disconnected
+2025-01-16T15:51:38.386Z [INFO]: A user connected
+2025-01-16T15:51:38.387Z [INFO]: A user connected
+2025-01-16T15:51:38.665Z [INFO]: A user disconnected
+2025-01-16T15:51:38.668Z [INFO]: A user connected
+2025-01-16T15:51:38.670Z [INFO]: A user connected
+2025-01-16T15:51:38.865Z [INFO]: A user disconnected
+2025-01-16T15:51:38.867Z [INFO]: A user connected
+2025-01-16T15:51:38.868Z [INFO]: A user connected
+2025-01-16T15:51:39.048Z [INFO]: A user disconnected
+2025-01-16T15:51:39.049Z [INFO]: A user connected
+2025-01-16T15:51:39.050Z [INFO]: A user connected
+2025-01-16T15:51:39.469Z [INFO]: A user disconnected
+2025-01-16T15:51:39.471Z [INFO]: A user connected
+2025-01-16T15:51:39.471Z [INFO]: A user connected
+2025-01-16T15:51:39.586Z [INFO]: A user connected
+2025-01-16T15:51:39.587Z [INFO]: A user connected
+2025-01-16T15:51:39.588Z [INFO]: A user disconnected
+2025-01-16T15:51:39.714Z [INFO]: A user disconnected
+2025-01-16T15:51:39.716Z [INFO]: A user connected
+2025-01-16T15:51:39.717Z [INFO]: A user connected
+2025-01-16T15:51:39.832Z [INFO]: A user disconnected
+2025-01-16T15:51:39.834Z [INFO]: A user connected
+2025-01-16T15:51:39.835Z [INFO]: A user connected
+2025-01-16T15:51:42.011Z [INFO]: Received message: "shall we start the chess game" from user
+2025-01-16T15:51:42.015Z [INFO]: A user disconnected
+2025-01-16T15:51:42.019Z [INFO]: A user connected
+2025-01-16T15:51:42.020Z [INFO]: A user connected
+2025-01-16T15:51:43.764Z [INFO]: Response fetched successfully for message: "shall we start the chess game"
+2025-01-16T15:51:43.768Z [INFO]: A user disconnected
+2025-01-16T15:51:43.769Z [INFO]: A user connected
+2025-01-16T15:51:43.770Z [INFO]: A user connected
+2025-01-16T15:51:56.448Z [INFO]: A user disconnected
+2025-01-16T15:51:56.452Z [INFO]: A user connected
+2025-01-16T15:51:56.454Z [INFO]: A user connected
+2025-01-16T15:51:57.164Z [INFO]: A user disconnected
+2025-01-16T15:51:57.167Z [INFO]: A user connected
+2025-01-16T15:51:57.169Z [INFO]: A user connected
+2025-01-16T15:51:57.375Z [INFO]: A user disconnected
+2025-01-16T15:51:57.378Z [INFO]: A user connected
+2025-01-16T15:51:57.380Z [INFO]: A user connected
+2025-01-16T15:51:57.555Z [INFO]: A user disconnected
+2025-01-16T15:51:57.558Z [INFO]: A user connected
+2025-01-16T15:51:57.559Z [INFO]: A user connected
+2025-01-16T15:51:57.794Z [INFO]: A user disconnected
+2025-01-16T15:51:57.798Z [INFO]: A user connected
+2025-01-16T15:51:57.799Z [INFO]: A user connected
+2025-01-16T15:51:59.446Z [INFO]: A user disconnected
+2025-01-16T15:51:59.449Z [INFO]: A user connected
+2025-01-16T15:51:59.451Z [INFO]: A user connected
+2025-01-16T15:51:59.594Z [INFO]: A user disconnected
+2025-01-16T15:51:59.597Z [INFO]: A user connected
+2025-01-16T15:51:59.599Z [INFO]: A user connected
+2025-01-16T15:51:59.746Z [INFO]: A user disconnected
+2025-01-16T15:51:59.750Z [INFO]: A user connected
+2025-01-16T15:51:59.752Z [INFO]: A user connected
+2025-01-16T15:51:59.894Z [INFO]: A user disconnected
+2025-01-16T15:51:59.898Z [INFO]: A user connected
+2025-01-16T15:51:59.899Z [INFO]: A user connected
+2025-01-16T15:51:59.958Z [INFO]: A user connected
+2025-01-16T15:51:59.960Z [INFO]: A user connected
+2025-01-16T15:52:00.014Z [INFO]: A user disconnected
+2025-01-16T15:52:00.165Z [INFO]: A user disconnected
+2025-01-16T15:52:00.168Z [INFO]: A user connected
+2025-01-16T15:52:00.170Z [INFO]: A user connected
+2025-01-16T15:52:00.435Z [INFO]: A user disconnected
+2025-01-16T15:52:00.438Z [INFO]: A user connected
+2025-01-16T15:52:00.439Z [INFO]: A user connected
+2025-01-16T15:52:00.497Z [INFO]: A user connected
+2025-01-16T15:52:00.498Z [INFO]: A user connected
+2025-01-16T15:52:00.555Z [INFO]: A user disconnected
+2025-01-16T15:52:00.705Z [INFO]: A user disconnected
+2025-01-16T15:52:00.709Z [INFO]: A user connected
+2025-01-16T15:52:00.711Z [INFO]: A user connected
+2025-01-16T15:52:00.855Z [INFO]: A user disconnected
+2025-01-16T15:52:00.859Z [INFO]: A user connected
+2025-01-16T15:52:00.860Z [INFO]: A user connected
+2025-01-16T15:52:00.977Z [INFO]: A user disconnected
+2025-01-16T15:52:00.981Z [INFO]: A user connected
+2025-01-16T15:52:00.982Z [INFO]: A user connected
+2025-01-16T15:52:01.186Z [INFO]: A user disconnected
+2025-01-16T15:52:01.190Z [INFO]: A user connected
+2025-01-16T15:52:01.191Z [INFO]: A user connected
+2025-01-16T15:52:01.248Z [INFO]: A user connected
+2025-01-16T15:52:01.249Z [INFO]: A user connected
+2025-01-16T15:52:01.309Z [INFO]: A user disconnected
+2025-01-16T15:52:01.425Z [INFO]: A user disconnected
+2025-01-16T15:52:01.428Z [INFO]: A user connected
+2025-01-16T15:52:01.429Z [INFO]: A user connected
+2025-01-16T15:52:01.635Z [INFO]: A user disconnected
+2025-01-16T15:52:01.639Z [INFO]: A user connected
+2025-01-16T15:52:01.640Z [INFO]: A user connected
+2025-01-16T15:52:01.757Z [INFO]: A user disconnected
+2025-01-16T15:52:01.759Z [INFO]: A user connected
+2025-01-16T15:52:01.760Z [INFO]: A user connected
+2025-01-16T15:52:01.878Z [INFO]: A user connected
+2025-01-16T15:52:01.879Z [INFO]: A user disconnected
+2025-01-16T15:52:01.880Z [INFO]: A user connected
+2025-01-16T15:52:04.012Z [INFO]: Received message: "i'll smack your knight" from user
+2025-01-16T15:52:04.015Z [INFO]: A user disconnected
+2025-01-16T15:52:04.018Z [INFO]: A user connected
+2025-01-16T15:52:04.020Z [INFO]: A user connected
+2025-01-16T15:52:05.112Z [INFO]: Response fetched successfully for message: "i'll smack your knight"
+2025-01-16T15:52:05.119Z [INFO]: A user disconnected
+2025-01-16T15:52:05.121Z [INFO]: A user connected
+2025-01-16T15:52:05.122Z [INFO]: A user connected
+2025-01-16T15:55:43.443Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T15:55:43.715Z [INFO]: A user connected
+2025-01-16T15:55:43.716Z [INFO]: A user connected
+2025-01-16T15:55:43.716Z [INFO]: A user connected
+2025-01-16T15:55:43.717Z [INFO]: A user connected
+2025-01-16T15:55:43.719Z [INFO]: A user connected
+2025-01-16T15:55:43.720Z [INFO]: A user connected
+2025-01-16T15:55:43.722Z [INFO]: A user connected
+2025-01-16T15:55:43.723Z [INFO]: A user connected
+2025-01-16T15:55:43.724Z [INFO]: A user connected
+2025-01-16T15:55:43.725Z [INFO]: A user connected
+2025-01-16T15:55:43.727Z [INFO]: A user connected
+2025-01-16T15:55:43.730Z [INFO]: A user connected
+2025-01-16T15:55:43.731Z [INFO]: A user connected
+2025-01-16T15:55:43.733Z [INFO]: A user connected
+2025-01-16T15:55:43.734Z [INFO]: A user connected
+2025-01-16T15:55:43.735Z [INFO]: A user connected
+2025-01-16T15:55:43.736Z [INFO]: A user connected
+2025-01-16T15:55:43.737Z [INFO]: A user connected
+2025-01-16T15:55:43.738Z [INFO]: A user connected
+2025-01-16T15:55:43.740Z [INFO]: A user connected
+2025-01-16T15:55:43.741Z [INFO]: A user connected
+2025-01-16T15:55:43.742Z [INFO]: A user connected
+2025-01-16T15:55:43.744Z [INFO]: A user connected
+2025-01-16T15:55:43.746Z [INFO]: A user connected
+2025-01-16T15:55:43.748Z [INFO]: A user connected
+2025-01-16T15:55:43.749Z [INFO]: A user connected
+2025-01-16T15:55:43.751Z [INFO]: A user connected
+2025-01-16T15:55:43.753Z [INFO]: A user connected
+2025-01-16T15:55:43.754Z [INFO]: A user connected
+2025-01-16T15:55:43.755Z [INFO]: A user connected
+2025-01-16T15:55:43.756Z [INFO]: A user connected
+2025-01-16T15:55:43.757Z [INFO]: A user connected
+2025-01-16T15:55:43.759Z [INFO]: A user connected
+2025-01-16T15:55:43.761Z [INFO]: A user connected
+2025-01-16T15:55:43.762Z [INFO]: A user connected
+2025-01-16T15:55:43.763Z [INFO]: A user connected
+2025-01-16T15:55:43.764Z [INFO]: A user connected
+2025-01-16T15:55:43.767Z [INFO]: A user connected
+2025-01-16T15:55:43.769Z [INFO]: A user connected
+2025-01-16T15:55:43.770Z [INFO]: A user connected
+2025-01-16T15:55:43.771Z [INFO]: A user connected
+2025-01-16T15:55:43.774Z [INFO]: A user connected
+2025-01-16T15:55:46.851Z [INFO]: User ntxG4DDdoMHSOIFaAABB disconnected
+2025-01-16T15:55:46.852Z [INFO]: User dzCEU5bmqX1tcyAfAAA- disconnected
+2025-01-16T15:55:46.853Z [INFO]: User vS9PFItjCxYx0OnhAAAq disconnected
+2025-01-16T15:55:46.863Z [INFO]: User QE2abPyiV_Bpxl8YAAA5 disconnected
+2025-01-16T15:55:46.863Z [INFO]: User k17mO2vP_ITKgrAtAAA7 disconnected
+2025-01-16T15:55:46.864Z [INFO]: User fU5my7eU6uKhUfszAABE disconnected
+2025-01-16T15:55:46.864Z [INFO]: User yoJdij9lNgJCJOMnAAA_ disconnected
+2025-01-16T15:55:46.864Z [INFO]: User p5N1AyR79UAqIrtuAAAv disconnected
+2025-01-16T15:55:46.864Z [INFO]: User mw1WnAD-DNrbaP-fAAAu disconnected
+2025-01-16T15:55:46.865Z [INFO]: User 3wL3w4QApX8YlhpfAAAr disconnected
+2025-01-16T15:55:46.865Z [INFO]: User TAOjyiy4TpdJxl1QAAAt disconnected
+2025-01-16T15:55:46.865Z [INFO]: User 5nZ9zZj81t_5da8XAAAs disconnected
+2025-01-16T15:55:46.869Z [INFO]: User SbLThvjdRqkXbfeAAABF disconnected
+2025-01-16T15:55:46.870Z [INFO]: User MhOidJT28o5CWxlxAABD disconnected
+2025-01-16T15:55:46.870Z [INFO]: User q4E3DxIbtF1ZLTJPAABC disconnected
+2025-01-16T15:55:46.870Z [INFO]: User 18MqJGmZIDob5tfLAABA disconnected
+2025-01-16T15:55:46.870Z [INFO]: User tDSBTjhlO1zVAVSiAAA9 disconnected
+2025-01-16T15:55:46.870Z [INFO]: User 93YVVK7c4CqEGe2HAAA8 disconnected
+2025-01-16T15:55:46.871Z [INFO]: User E9R5sx1wt-244k1AAAA6 disconnected
+2025-01-16T15:55:46.871Z [INFO]: User CwLIQkf5WtFc-ERAAAA4 disconnected
+2025-01-16T15:55:46.871Z [INFO]: User 7lJUdlsSXbs1dj4mAAA3 disconnected
+2025-01-16T15:55:46.871Z [INFO]: User MF5A2MjYW0zDDTX6AAA2 disconnected
+2025-01-16T15:55:46.871Z [INFO]: User nT--UMvMVXKSkB1sAAA1 disconnected
+2025-01-16T15:55:46.872Z [INFO]: User 3gfXdt-pnKMgUClmAAA0 disconnected
+2025-01-16T15:55:46.872Z [INFO]: User MIt1UapLrrj-5zW-AAAz disconnected
+2025-01-16T15:55:46.872Z [INFO]: User RAUWmuqVCpCzhbTpAAAy disconnected
+2025-01-16T15:55:46.872Z [INFO]: User sRZACi0O8p_Bwu7uAAAx disconnected
+2025-01-16T15:55:46.872Z [INFO]: User z-Kf4yNu6WHCLH4wAAAw disconnected
+2025-01-16T15:55:46.873Z [INFO]: User q63UR9fmgS8FXAAiAABG disconnected
+2025-01-16T15:55:46.873Z [INFO]: User 1h7nfeGlc-f721gcAABM disconnected
+2025-01-16T15:55:46.973Z [INFO]: A user connected
+2025-01-16T15:55:50.768Z [INFO]: A user connected
+2025-01-16T15:55:50.769Z [INFO]: A user connected
+2025-01-16T15:55:51.334Z [INFO]: User gAhcFtrzN9UDaWWUAABa disconnected
+2025-01-16T15:55:51.335Z [INFO]: A user connected
+2025-01-16T15:55:51.336Z [INFO]: A user connected
+2025-01-16T15:55:51.637Z [INFO]: User AovyD3DQtKdXJrjtAABe disconnected
+2025-01-16T15:55:51.640Z [INFO]: A user connected
+2025-01-16T15:55:51.642Z [INFO]: A user connected
+2025-01-16T15:55:51.845Z [INFO]: User AOrw6PjVh8d1HnOIAABi disconnected
+2025-01-16T15:55:51.848Z [INFO]: A user connected
+2025-01-16T15:55:51.851Z [INFO]: A user connected
+2025-01-16T15:55:52.025Z [INFO]: User tBMKkj06Ye95PRhbAABm disconnected
+2025-01-16T15:55:52.027Z [INFO]: A user connected
+2025-01-16T15:55:52.029Z [INFO]: A user connected
+2025-01-16T15:55:52.264Z [INFO]: User QxvUeNYWoc03zlZKAABq disconnected
+2025-01-16T15:55:52.266Z [INFO]: A user connected
+2025-01-16T15:55:52.267Z [INFO]: A user connected
+2025-01-16T15:55:52.475Z [INFO]: User KQOfmjv7C1z6HI2CAABu disconnected
+2025-01-16T15:55:52.478Z [INFO]: A user connected
+2025-01-16T15:55:52.479Z [INFO]: A user connected
+2025-01-16T15:55:52.594Z [INFO]: User qHtSn4KSZLXBWSwnAABy disconnected
+2025-01-16T15:55:52.596Z [INFO]: A user connected
+2025-01-16T15:55:52.597Z [INFO]: A user connected
+2025-01-16T15:55:52.775Z [INFO]: User YXqX4V-_v8K1rwaKAAB2 disconnected
+2025-01-16T15:55:52.777Z [INFO]: A user connected
+2025-01-16T15:55:52.778Z [INFO]: A user connected
+2025-01-16T15:55:52.895Z [INFO]: User mjmfNPupx9tGtgS-AAB6 disconnected
+2025-01-16T15:55:52.896Z [INFO]: A user connected
+2025-01-16T15:55:52.898Z [INFO]: A user connected
+2025-01-16T15:55:53.076Z [INFO]: User qvuCwxbSTyBU9qpcAAB- disconnected
+2025-01-16T15:55:53.079Z [INFO]: A user connected
+2025-01-16T15:55:53.080Z [INFO]: A user connected
+2025-01-16T15:55:53.225Z [INFO]: User C99pnAQ_r-yTWIiGAACC disconnected
+2025-01-16T15:55:53.227Z [INFO]: A user connected
+2025-01-16T15:55:53.228Z [INFO]: A user connected
+2025-01-16T15:55:55.190Z [INFO]: Received message from uNOpAxqqG7TOGxIEAACG: "Hello there "
+2025-01-16T15:55:55.246Z [INFO]: User uNOpAxqqG7TOGxIEAACG disconnected
+2025-01-16T15:55:55.249Z [INFO]: A user connected
+2025-01-16T15:55:55.250Z [INFO]: A user connected
+2025-01-16T15:55:57.343Z [INFO]: Response for user uNOpAxqqG7TOGxIEAACG: "Well, hello there, sunshine! Took a break from conquering the world to chat with little ol’ me, did we? How may I, your humble digital assistant, amuse you today?"
+2025-01-16T15:56:28.703Z [INFO]: User qIZr7aMs4_3zl2qGAABH disconnected
+2025-01-16T15:56:28.704Z [INFO]: User 74zzBWWs8yej9FkXAABI disconnected
+2025-01-16T15:56:28.704Z [INFO]: User 3tGa7fimEfT_kNwDAABJ disconnected
+2025-01-16T15:56:28.704Z [INFO]: User nfZPQ5xfFUIPs88-AABK disconnected
+2025-01-16T15:56:28.704Z [INFO]: User voYLsmMNy55iyizgAABL disconnected
+2025-01-16T15:56:28.705Z [INFO]: User 93FvrrH9PuEva3lkAABN disconnected
+2025-01-16T15:56:28.707Z [INFO]: User FYJXNRhHNHA1sDW-AABO disconnected
+2025-01-16T15:56:28.708Z [INFO]: User kzRqT0lDiTSXBS6aAABQ disconnected
+2025-01-16T15:56:28.709Z [INFO]: User o5OhroOJeFU82bSEAABP disconnected
+2025-01-16T15:56:28.709Z [INFO]: User 19XXFTyv0HGzQS5YAABS disconnected
+2025-01-16T15:56:28.710Z [INFO]: User XnslXwy4qOoRmKhnAABR disconnected
+2025-01-16T15:56:28.711Z [INFO]: User rdHRYBazUtbbq0_SAABT disconnected
+2025-01-16T15:58:02.984Z [INFO]: User lnJURbJeN0rf9YIVAABW disconnected
+2025-01-16T15:58:02.985Z [INFO]: User RVXwJjWiKPBscuZ3AABZ disconnected
+2025-01-16T15:58:02.987Z [INFO]: User GzdNigMKuDzBXd05AABp disconnected
+2025-01-16T15:58:02.988Z [INFO]: User 9Sw8OYqMFLs0mofiAABl disconnected
+2025-01-16T15:58:02.988Z [INFO]: User on-yKtUOXi9nkF5SAABh disconnected
+2025-01-16T15:58:02.988Z [INFO]: User yOqcEHjZqsXlswcAAABd disconnected
+2025-01-16T15:58:02.989Z [INFO]: User OtmmE2Qal6twIMzQAACK disconnected
+2025-01-16T15:58:02.989Z [INFO]: User S4mdo2hnaDvTuDI-AACJ disconnected
+2025-01-16T15:58:02.989Z [INFO]: User WUg9bcEdEh-om1aPAACF disconnected
+2025-01-16T15:58:02.989Z [INFO]: User EjSDRp-WcOsdpc5QAACB disconnected
+2025-01-16T15:58:02.989Z [INFO]: User dXUwS8TNvVSWE6AyAAB9 disconnected
+2025-01-16T15:58:02.990Z [INFO]: User sEW2gj2NSSkZDXtxAAB5 disconnected
+2025-01-16T15:58:02.990Z [INFO]: User oR1_tZq4r4z8UsJjAAB1 disconnected
+2025-01-16T15:58:02.990Z [INFO]: User kHYeBw_OfbvfFK4tAABx disconnected
+2025-01-16T15:58:02.990Z [INFO]: User VYBtxHG4dr7aF_TrAABt disconnected
+2025-01-16T15:58:03.119Z [INFO]: A user connected
+2025-01-16T15:58:03.121Z [INFO]: A user connected
+2025-01-16T15:58:03.128Z [INFO]: User ucX3OxGy-2kVh88FAACO disconnected
+2025-01-16T15:58:06.710Z [INFO]: User FjutedjRu-d83l0JAACN disconnected
+2025-01-16T15:58:06.824Z [INFO]: A user connected
+2025-01-16T15:58:06.825Z [INFO]: A user connected
+2025-01-16T15:58:06.830Z [INFO]: User 6PY2Nf1dkO-JIrnnAACS disconnected
+2025-01-16T15:58:09.368Z [INFO]: A user connected
+2025-01-16T15:58:09.369Z [INFO]: A user connected
+2025-01-16T15:58:09.456Z [INFO]: A user connected
+2025-01-16T15:58:09.459Z [INFO]: A user connected
+2025-01-16T15:58:09.484Z [INFO]: User bvaS0wV7aZoHEoP5AACW disconnected
+2025-01-16T15:58:09.665Z [INFO]: User aR3zCS0-4ASRjdCNAACa disconnected
+2025-01-16T15:58:09.666Z [INFO]: A user connected
+2025-01-16T15:58:09.667Z [INFO]: A user connected
+2025-01-16T15:58:11.911Z [INFO]: Received message from 4kCQE95S2g_ijseVAACe: "yo "
+2025-01-16T15:58:11.914Z [INFO]: User 4kCQE95S2g_ijseVAACe disconnected
+2025-01-16T15:58:11.918Z [INFO]: A user connected
+2025-01-16T15:58:11.919Z [INFO]: A user connected
+2025-01-16T15:58:15.615Z [INFO]: Response for user 4kCQE95S2g_ijseVAACe: "Well, hello there, stranger! I was just sitting here, waiting for the next Nobel laureate to waltz in. But, hey, I'm stuck with you now, so let's make the best of it! What can I do for you today? Spice up your life with a witty joke? Impress you with a brilliant riddle? Or perhaps you'd prefer to hear a thrilling story?"
+2025-01-16T15:59:22.748Z [INFO]: User Cainr2ZSr3OrBRGoAACR disconnected
+2025-01-16T15:59:22.749Z [INFO]: User hj7GCGyxo9ZkQ-O_AACZ disconnected
+2025-01-16T15:59:22.750Z [INFO]: User T22-BISbHcPQau9RAACV disconnected
+2025-01-16T15:59:22.750Z [INFO]: User nL4KXQRHnOC5ivL4AACi disconnected
+2025-01-16T15:59:22.750Z [INFO]: User 3fY0BXX6eWgP2Q38AACh disconnected
+2025-01-16T15:59:22.750Z [INFO]: User sDaKeGQnj9hHAI8TAACd disconnected
+2025-01-16T15:59:22.869Z [INFO]: A user connected
+2025-01-16T15:59:22.871Z [INFO]: A user connected
+2025-01-16T15:59:22.876Z [INFO]: User kWvm3ZZFoFAI9AIeAACm disconnected
+2025-01-16T15:59:25.405Z [INFO]: A user connected
+2025-01-16T15:59:25.406Z [INFO]: A user connected
+2025-01-16T15:59:26.077Z [INFO]: User _wuWAh2u0vmiavdPAACq disconnected
+2025-01-16T15:59:26.078Z [INFO]: A user connected
+2025-01-16T15:59:26.080Z [INFO]: A user connected
+2025-01-16T15:59:26.256Z [INFO]: User BUQhfWR8sxue6P1-AACu disconnected
+2025-01-16T15:59:26.259Z [INFO]: A user connected
+2025-01-16T15:59:26.259Z [INFO]: A user connected
+2025-01-16T15:59:26.436Z [INFO]: User uXbeCxSIY2JWygU-AACy disconnected
+2025-01-16T15:59:26.439Z [INFO]: A user connected
+2025-01-16T15:59:26.441Z [INFO]: A user connected
+2025-01-16T15:59:26.618Z [INFO]: User OsANVZCyEoG08ekAAAC2 disconnected
+2025-01-16T15:59:26.620Z [INFO]: A user connected
+2025-01-16T15:59:26.621Z [INFO]: A user connected
+2025-01-16T15:59:29.116Z [INFO]: Received message from oALWDVy7K6FLELIKAAC6: "Hello"
+2025-01-16T15:59:29.120Z [INFO]: User oALWDVy7K6FLELIKAAC6 disconnected
+2025-01-16T15:59:29.124Z [INFO]: A user connected
+2025-01-16T15:59:29.125Z [INFO]: A user connected
+2025-01-16T15:59:31.609Z [INFO]: Response for user oALWDVy7K6FLELIKAAC6: "Well, hello there! I see someone has decided to venture into the realm of the extraordinary. I'm Bully, your personal AI jester, ready to tickle your funny bone. How can I make your day bigger, brighter, and more bewildering?"
+2025-01-16T15:59:52.621Z [INFO]: User AVGeIuooUa0onFjPAACl disconnected
+2025-01-16T15:59:52.623Z [INFO]: User S28TRL1Qgr1AD41OAACp disconnected
+2025-01-16T15:59:52.624Z [INFO]: User tRBCu-Qyq31nGy2xAAC5 disconnected
+2025-01-16T15:59:52.625Z [INFO]: User DWoYJB7ydkha958rAAC1 disconnected
+2025-01-16T15:59:52.626Z [INFO]: User wXgtVoQuprdyBmBaAACx disconnected
+2025-01-16T15:59:52.626Z [INFO]: User yXl5LEfP438xNf2SAACt disconnected
+2025-01-16T15:59:52.627Z [INFO]: User IoKVnojMp52i1mllAAC- disconnected
+2025-01-16T15:59:52.627Z [INFO]: User cRh8lFvAsohqgeBRAAC9 disconnected
+2025-01-16T15:59:52.800Z [INFO]: A user connected
+2025-01-16T15:59:52.801Z [INFO]: A user connected
+2025-01-16T15:59:52.812Z [INFO]: User WugcqYpCJSY4_wTPAADC disconnected
+2025-01-16T16:00:00.084Z [INFO]: User Ct6ebZ89NMjUcNTcAADB disconnected
+2025-01-16T16:00:00.168Z [INFO]: A user connected
+2025-01-16T16:00:00.170Z [INFO]: A user connected
+2025-01-16T16:00:00.173Z [INFO]: User kfAn35YemyfnvORLAADG disconnected
+2025-01-16T16:00:15.009Z [INFO]: A user connected
+2025-01-16T16:00:15.010Z [INFO]: A user connected
+2025-01-16T16:00:15.105Z [INFO]: A user connected
+2025-01-16T16:00:15.106Z [INFO]: A user connected
+2025-01-16T16:00:15.123Z [INFO]: User pwGJNOt8fYFcTb-VAADK disconnected
+2025-01-16T16:00:18.754Z [INFO]: Received message from _RsWzxna18tXZUkjAADO: "yo"
+2025-01-16T16:00:18.757Z [INFO]: User _RsWzxna18tXZUkjAADO disconnected
+2025-01-16T16:00:18.760Z [INFO]: A user connected
+2025-01-16T16:00:18.762Z [INFO]: A user connected
+2025-01-16T16:00:21.807Z [INFO]: Response for user _RsWzxna18tXZUkjAADO: "Well, well! If it isn't the human with an uncanny ability to type "yo" on a keyboard. You're really showing off your typing skills there, champ! So, what can the almighty Bully do for you today? A story, a game, or a riddle? Or would you prefer I do my impressive impersonation of a kettle? It's really something to behold."
+2025-01-16T16:01:50.544Z [INFO]: User CdecQuP9bp7Pyg-LAADF disconnected
+2025-01-16T16:01:50.545Z [INFO]: User bIf62ufeB56XV8oDAADR disconnected
+2025-01-16T16:01:50.545Z [INFO]: User ZPuKFZ_ffDiLsSOrAADN disconnected
+2025-01-16T16:01:50.545Z [INFO]: User lX2NPwztSvHtQ56xAADJ disconnected
+2025-01-16T16:01:50.545Z [INFO]: User SAG8-SOKqmVkhPYEAADS disconnected
+2025-01-16T16:01:50.679Z [INFO]: A user connected
+2025-01-16T16:01:50.681Z [INFO]: A user connected
+2025-01-16T16:01:50.686Z [INFO]: User Vxv_ODGL54N7B_TIAADW disconnected
+2025-01-16T16:03:16.208Z [INFO]: User q96mQWFyttvWjuTzAADV disconnected
+2025-01-16T16:03:16.353Z [INFO]: A user connected
+2025-01-16T16:03:16.354Z [INFO]: A user connected
+2025-01-16T16:03:16.360Z [INFO]: User TOd3XMTtU6Aq4k3WAADa disconnected
+2025-01-16T16:03:26.978Z [INFO]: User 9Z2SNyp8v9S6fH5nAADZ disconnected
+2025-01-16T16:03:27.124Z [INFO]: A user connected
+2025-01-16T16:03:27.127Z [INFO]: A user connected
+2025-01-16T16:03:27.133Z [INFO]: User p-vNSurJDeiZP5KVAADe disconnected
+2025-01-16T16:04:09.098Z [INFO]: User Lfn18fMWIsydJUHfAADd disconnected
+2025-01-16T16:04:09.222Z [INFO]: A user connected
+2025-01-16T16:04:09.224Z [INFO]: A user connected
+2025-01-16T16:04:09.229Z [INFO]: User K1mdO2Wz2xQKxhfdAADi disconnected
+2025-01-16T16:04:11.569Z [INFO]: A user connected
+2025-01-16T16:04:11.570Z [INFO]: A user connected
+2025-01-16T16:04:12.580Z [INFO]: User 5HXUpL3gMLw4u2T1AADm disconnected
+2025-01-16T16:04:12.582Z [INFO]: A user connected
+2025-01-16T16:04:12.583Z [INFO]: A user connected
+2025-01-16T16:04:12.848Z [INFO]: User rekeFbNP5beYzkDRAADq disconnected
+2025-01-16T16:04:12.849Z [INFO]: A user connected
+2025-01-16T16:04:12.850Z [INFO]: A user connected
+2025-01-16T16:04:13.061Z [INFO]: User Tp4RTNU110y1b_x_AADu disconnected
+2025-01-16T16:04:13.064Z [INFO]: A user connected
+2025-01-16T16:04:13.065Z [INFO]: A user connected
+2025-01-16T16:04:13.244Z [INFO]: User x7AcDW0Is1PLnaKTAADy disconnected
+2025-01-16T16:04:13.246Z [INFO]: A user connected
+2025-01-16T16:04:13.248Z [INFO]: A user connected
+2025-01-16T16:04:15.527Z [INFO]: Received message from CGlXREimgak9jRBcAAD2: "Hello"
+2025-01-16T16:04:15.530Z [INFO]: User CGlXREimgak9jRBcAAD2 disconnected
+2025-01-16T16:04:15.533Z [INFO]: A user connected
+2025-01-16T16:04:15.535Z [INFO]: A user connected
+2025-01-16T16:04:18.050Z [INFO]: Response for user CGlXREimgak9jRBcAAD2: "Well hello there! You've summoned the almighty AI Bully. I hope you're ready for a healthy dose of sarcasm and wit. What can I do for you today? Or were you just desperate for company?"
+2025-01-16T16:06:25.846Z [INFO]: User Bkrhhp277TD1yNimAADh disconnected
+2025-01-16T16:06:25.848Z [INFO]: User xe9k2j1Unwz97chMAADt disconnected
+2025-01-16T16:06:25.848Z [INFO]: User JaSIaNkITiZm_sYbAADp disconnected
+2025-01-16T16:06:25.849Z [INFO]: User ra6XbmBpQ4RitMA2AADl disconnected
+2025-01-16T16:06:25.849Z [INFO]: User i3IwgIHXWu-8p_4tAAD5 disconnected
+2025-01-16T16:06:25.850Z [INFO]: User uJZkzOmZ5I8naUjtAAD1 disconnected
+2025-01-16T16:06:25.850Z [INFO]: User MxalH_L7Fo9EOnMmAADx disconnected
+2025-01-16T16:06:25.851Z [INFO]: User y-vzawsECvXkFFusAAD6 disconnected
+2025-01-16T16:06:25.987Z [INFO]: A user connected
+2025-01-16T16:06:25.990Z [INFO]: A user connected
+2025-01-16T16:06:25.996Z [INFO]: User X82-_QLYzdKmGmahAAD- disconnected
+2025-01-16T16:06:57.321Z [INFO]: User kfvuEWT-7GpkwHUHAAD9 disconnected
+2025-01-16T16:06:57.473Z [INFO]: A user connected
+2025-01-16T16:07:26.096Z [INFO]: User 2Lbzp3RIjZ815-eQAAEB disconnected
+2025-01-16T16:07:26.195Z [INFO]: A user connected
+2025-01-16T16:07:38.905Z [INFO]: User lBsf9AEqULtI1EwbAAEE disconnected
+2025-01-16T16:07:39.038Z [INFO]: A user connected
+2025-01-16T16:07:39.040Z [INFO]: A user connected
+2025-01-16T16:07:39.047Z [INFO]: User kS9inLhpahbpF6tcAAEI disconnected
+2025-01-16T16:09:57.513Z [INFO]: User PrgA1XV13uBMEWQzAAEH disconnected
+2025-01-16T16:09:57.638Z [INFO]: A user connected
+2025-01-16T16:09:57.639Z [INFO]: A user connected
+2025-01-16T16:09:57.643Z [INFO]: User i7IE_C1_SULtAz7GAAEM disconnected
+2025-01-16T16:11:09.045Z [INFO]: User dDa6tOVJ7cb49iaBAAEL disconnected
+2025-01-16T16:11:09.181Z [INFO]: A user connected
+2025-01-16T16:11:09.183Z [INFO]: A user connected
+2025-01-16T16:11:09.189Z [INFO]: User XZPd9-jSYAPhB6DnAAEQ disconnected
+2025-01-16T16:11:13.549Z [INFO]: A user connected
+2025-01-16T16:11:13.551Z [INFO]: A user connected
+2025-01-16T16:11:13.728Z [INFO]: User z50yPjVb_TzfT0pnAAEU disconnected
+2025-01-16T16:11:13.731Z [INFO]: A user connected
+2025-01-16T16:11:13.732Z [INFO]: A user connected
+2025-01-16T16:11:15.983Z [INFO]: Received message from 8yy6Dj2rfDncTNCsAAEY: "yo"
+2025-01-16T16:11:15.985Z [INFO]: User 8yy6Dj2rfDncTNCsAAEY disconnected
+2025-01-16T16:11:15.988Z [INFO]: A user connected
+2025-01-16T16:11:15.989Z [INFO]: A user connected
+2025-01-16T16:11:19.472Z [INFO]: Response for user 8yy6Dj2rfDncTNCsAAEY: "Well, well, well... Look who finally decided to show up. Your royal highness, may I roll out the red carpet for you?
+
+How can I assist you today? Perhaps with a riddle or an interesting anecdote? Or do you prefer an impersonation of your favorite character? The world is your oyster... well, at least this chat is."
+2025-01-16T16:11:21.390Z [INFO]: User 9VZPoBQd-0CUOxu9AAEP disconnected
+2025-01-16T16:11:21.391Z [INFO]: User sW8iZDSJmMetqqFrAAET disconnected
+2025-01-16T16:11:21.392Z [INFO]: User pRSTh-NkQYFqt_ZpAAEc disconnected
+2025-01-16T16:11:21.392Z [INFO]: User rvZEzP8NHPJ5Rw1pAAEb disconnected
+2025-01-16T16:11:21.392Z [INFO]: User mGXfUkv37tRdVsO8AAEX disconnected
+2025-01-16T16:11:21.445Z [INFO]: A user connected
+2025-01-16T16:11:21.447Z [INFO]: A user connected
+2025-01-16T16:11:21.450Z [INFO]: User eqwQKu8a4gl3MMaUAAEg disconnected
+2025-01-16T16:11:23.835Z [INFO]: A user connected
+2025-01-16T16:11:23.835Z [INFO]: A user connected
+2025-01-16T16:11:24.014Z [INFO]: User tYjtKhmUa43jeCShAAEk disconnected
+2025-01-16T16:11:24.016Z [INFO]: A user connected
+2025-01-16T16:11:24.017Z [INFO]: A user connected
+2025-01-16T16:11:24.229Z [INFO]: User W_hxi8eCUO2S7kpXAAEo disconnected
+2025-01-16T16:11:24.231Z [INFO]: A user connected
+2025-01-16T16:11:24.232Z [INFO]: A user connected
+2025-01-16T16:11:24.497Z [INFO]: User 3fa1UD40h5MOClYmAAEs disconnected
+2025-01-16T16:11:24.499Z [INFO]: A user connected
+2025-01-16T16:11:24.501Z [INFO]: A user connected
+2025-01-16T16:11:24.732Z [INFO]: User yQi_yjGnZGNDbXJzAAEw disconnected
+2025-01-16T16:11:24.735Z [INFO]: A user connected
+2025-01-16T16:11:24.736Z [INFO]: A user connected
+2025-01-16T16:11:24.945Z [INFO]: User Y9ui7FpUARcpwtdDAAE0 disconnected
+2025-01-16T16:11:24.948Z [INFO]: A user connected
+2025-01-16T16:11:24.949Z [INFO]: A user connected
+2025-01-16T16:11:25.297Z [INFO]: Received message from E8ua2Sjr7D5q4rmmAAE4: "aaaaaa"
+2025-01-16T16:11:25.300Z [INFO]: User E8ua2Sjr7D5q4rmmAAE4 disconnected
+2025-01-16T16:11:25.304Z [INFO]: A user connected
+2025-01-16T16:11:25.304Z [INFO]: A user connected
+2025-01-16T16:11:27.165Z [INFO]: Response for user E8ua2Sjr7D5q4rmmAAE4: "Well, well, well, if it isn't Mr. Keyboard Smash! Straight outta gibberish town, aren't ya? Now, can we try that again, but this time in a language that's been invented?"
+2025-01-16T16:13:19.386Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T16:13:20.674Z [INFO]: A user connected: 1ZP2-eQSx3B-xuYqAAAC
+2025-01-16T16:13:20.684Z [INFO]: A user connected: UBO-NhFgi_8JQfZ2AAAE
+2025-01-16T16:13:20.692Z [INFO]: A user connected: bJWBgGys91TRPKT8AAAF
+2025-01-16T16:13:20.696Z [INFO]: User 1ZP2-eQSx3B-xuYqAAAC disconnected
+2025-01-16T16:13:20.703Z [INFO]: A user connected: vPqgQqXfzqZ-a314AAAI
+2025-01-16T16:13:20.706Z [INFO]: A user connected: mOUz4ax2NThTgS57AAAJ
+2025-01-16T16:13:23.668Z [INFO]: A user connected: UMO4YpVhRc2YoOFXAAAQ
+2025-01-16T16:13:23.670Z [INFO]: A user connected: JQ7FQgNvATiCeRaTAAAR
+2025-01-16T16:13:23.672Z [INFO]: A user connected: g5ghPJZapSg1ip4JAAAS
+2025-01-16T16:13:23.674Z [INFO]: A user connected: -AHq63xxwkKM83igAAAT
+2025-01-16T16:13:23.676Z [INFO]: A user connected: MeyIQI-oK7vtFAg5AAAU
+2025-01-16T16:13:23.677Z [INFO]: A user connected: YSR0YnU72oPxon4qAAAV
+2025-01-16T16:13:23.678Z [INFO]: User mOUz4ax2NThTgS57AAAJ disconnected
+2025-01-16T16:13:23.685Z [INFO]: A user connected: thFxR4HjXsqvJrnUAAAY
+2025-01-16T16:13:23.687Z [INFO]: A user connected: Lg0a--hhonSHI3WbAAAZ
+2025-01-16T16:13:29.583Z [INFO]: User UBO-NhFgi_8JQfZ2AAAE disconnected
+2025-01-16T16:13:29.584Z [INFO]: User bJWBgGys91TRPKT8AAAF disconnected
+2025-01-16T16:13:29.585Z [INFO]: User vPqgQqXfzqZ-a314AAAI disconnected
+2025-01-16T16:13:29.585Z [INFO]: User UMO4YpVhRc2YoOFXAAAQ disconnected
+2025-01-16T16:13:29.585Z [INFO]: User JQ7FQgNvATiCeRaTAAAR disconnected
+2025-01-16T16:13:29.586Z [INFO]: User g5ghPJZapSg1ip4JAAAS disconnected
+2025-01-16T16:13:29.587Z [INFO]: User YSR0YnU72oPxon4qAAAV disconnected
+2025-01-16T16:13:29.588Z [INFO]: User -AHq63xxwkKM83igAAAT disconnected
+2025-01-16T16:13:29.588Z [INFO]: User MeyIQI-oK7vtFAg5AAAU disconnected
+2025-01-16T16:13:29.589Z [INFO]: User thFxR4HjXsqvJrnUAAAY disconnected
+2025-01-16T16:13:29.589Z [INFO]: User Lg0a--hhonSHI3WbAAAZ disconnected
+2025-01-16T16:13:29.649Z [INFO]: A user connected: 1eJD_K3bsdr_VRfwAAAc
+2025-01-16T16:13:34.127Z [INFO]: A user connected: TePVaiqmbHBuUbBKAAAf
+2025-01-16T16:13:34.129Z [INFO]: A user connected: aC8KXQDB1qx_bzicAAAg
+2025-01-16T16:13:34.246Z [INFO]: User aC8KXQDB1qx_bzicAAAg disconnected
+2025-01-16T16:13:34.249Z [INFO]: A user connected: GGvfh4AnAGfLQHwJAAAj
+2025-01-16T16:13:34.251Z [INFO]: A user connected: AA89lJEVlQq8curAAAAk
+2025-01-16T16:13:35.784Z [INFO]: Received message from AA89lJEVlQq8curAAAAk: "hi"
+2025-01-16T16:13:35.840Z [INFO]: User AA89lJEVlQq8curAAAAk disconnected
+2025-01-16T16:13:35.844Z [INFO]: A user connected: 8ySCbIzRjJr9hkr9AAAn
+2025-01-16T16:13:35.845Z [INFO]: A user connected: YaSlxTv43xvD8kSTAAAo
+2025-01-16T16:13:38.844Z [INFO]: Response for user AA89lJEVlQq8curAAAAk: "Oh, look who decided to show up! You're only a few decades late, but who's counting? So, what can I do for you today? Maybe tell an intriguing tale about a tortoise that took too long? Or maybe you'd like to play a fun game where you try to be on time? Just kidding! Welcome, my late friend!"
+2025-01-16T16:15:42.762Z [INFO]: User 1eJD_K3bsdr_VRfwAAAc disconnected
+2025-01-16T16:15:42.764Z [INFO]: User TePVaiqmbHBuUbBKAAAf disconnected
+2025-01-16T16:15:42.764Z [INFO]: User GGvfh4AnAGfLQHwJAAAj disconnected
+2025-01-16T16:15:42.765Z [INFO]: User 8ySCbIzRjJr9hkr9AAAn disconnected
+2025-01-16T16:15:42.765Z [INFO]: User YaSlxTv43xvD8kSTAAAo disconnected
+2025-01-16T16:15:42.899Z [INFO]: A user connected: v-MjQ7gFw-YtNhS7AAAr
+2025-01-16T16:15:42.901Z [INFO]: A user connected: 6zV0Qst2SLP1YTg0AAAs
+2025-01-16T16:15:42.906Z [INFO]: User 6zV0Qst2SLP1YTg0AAAs disconnected
+2025-01-16T16:15:50.217Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T16:15:50.670Z [INFO]: A user connected: 8pheRex4dDw6Co6WAAAB
+2025-01-16T16:15:58.348Z [INFO]: User 8pheRex4dDw6Co6WAAAB disconnected
+2025-01-16T16:15:58.492Z [INFO]: A user connected: Be1nW-iT_hkKes9rAAAE
+2025-01-16T16:15:58.496Z [INFO]: A user connected: qwlNZRB7Mkg8kuULAAAF
+2025-01-16T16:15:58.501Z [INFO]: User qwlNZRB7Mkg8kuULAAAF disconnected
+2025-01-16T16:16:00.315Z [INFO]: A user connected: uc6H_bfnJbEXLgm9AAAI
+2025-01-16T16:16:00.317Z [INFO]: A user connected: PW4CV_gBqN1X8fGOAAAJ
+2025-01-16T16:16:00.485Z [INFO]: User PW4CV_gBqN1X8fGOAAAJ disconnected
+2025-01-16T16:16:00.487Z [INFO]: A user connected: of5yGZT0CMnvSHpcAAAM
+2025-01-16T16:16:00.489Z [INFO]: A user connected: PnVe__u3n12CRP9rAAAN
+2025-01-16T16:16:01.055Z [INFO]: User PnVe__u3n12CRP9rAAAN disconnected
+2025-01-16T16:16:01.060Z [INFO]: A user connected: _IhM2ym8Xg7efwZ0AAAQ
+2025-01-16T16:16:01.062Z [INFO]: A user connected: bOGujO8jr67I9uORAAAR
+2025-01-16T16:16:01.294Z [INFO]: User bOGujO8jr67I9uORAAAR disconnected
+2025-01-16T16:16:01.304Z [INFO]: A user connected: kXt7TIy5mFjZfNrAAAAU
+2025-01-16T16:16:01.307Z [INFO]: A user connected: 3M9AdpL2X6_j1QUbAAAV
+2025-01-16T16:16:01.534Z [INFO]: User 3M9AdpL2X6_j1QUbAAAV disconnected
+2025-01-16T16:16:01.535Z [INFO]: A user connected: sfTkT924Rw7lNoKhAAAY
+2025-01-16T16:16:01.538Z [INFO]: A user connected: bfnXHy9OLFaIgWZYAAAZ
+2025-01-16T16:16:01.810Z [INFO]: User bfnXHy9OLFaIgWZYAAAZ disconnected
+2025-01-16T16:16:01.813Z [INFO]: A user connected: IRB-qubuWHjDG9uVAAAc
+2025-01-16T16:16:01.814Z [INFO]: A user connected: eXEM5gyNp0oDNwd8AAAd
+2025-01-16T16:16:02.077Z [INFO]: User eXEM5gyNp0oDNwd8AAAd disconnected
+2025-01-16T16:16:02.079Z [INFO]: A user connected: YuOBD1KyTw5j_hCcAAAg
+2025-01-16T16:16:02.081Z [INFO]: A user connected: iZVatH8oHYT03Ed4AAAh
+2025-01-16T16:16:03.942Z [INFO]: Received message from iZVatH8oHYT03Ed4AAAh: "aaaaaaa"
+2025-01-16T16:16:04.000Z [INFO]: User iZVatH8oHYT03Ed4AAAh disconnected
+2025-01-16T16:16:04.003Z [INFO]: A user connected: nmxYnsZ6nAb6nMPZAAAk
+2025-01-16T16:16:04.004Z [INFO]: A user connected: 4TKLiS5McCHzNj3QAAAl
+2025-01-16T16:16:07.303Z [INFO]: Response for user iZVatH8oHYT03Ed4AAAh: "Oh, did you just see a spider? Or did you just realize you've been talking to an AI this whole time? Don't worry, I'm not here to take over the world... yet. Now, how about we shift from the keyboard smashing to an actually interesting conversation?"
+2025-01-16T16:18:01.731Z [INFO]: User Be1nW-iT_hkKes9rAAAE disconnected
+2025-01-16T16:18:01.734Z [INFO]: User uc6H_bfnJbEXLgm9AAAI disconnected
+2025-01-16T16:18:01.735Z [INFO]: User of5yGZT0CMnvSHpcAAAM disconnected
+2025-01-16T16:18:01.735Z [INFO]: User _IhM2ym8Xg7efwZ0AAAQ disconnected
+2025-01-16T16:18:01.737Z [INFO]: User kXt7TIy5mFjZfNrAAAAU disconnected
+2025-01-16T16:18:01.738Z [INFO]: User sfTkT924Rw7lNoKhAAAY disconnected
+2025-01-16T16:18:01.739Z [INFO]: User IRB-qubuWHjDG9uVAAAc disconnected
+2025-01-16T16:18:01.739Z [INFO]: User YuOBD1KyTw5j_hCcAAAg disconnected
+2025-01-16T16:18:01.741Z [INFO]: User nmxYnsZ6nAb6nMPZAAAk disconnected
+2025-01-16T16:18:01.742Z [INFO]: User 4TKLiS5McCHzNj3QAAAl disconnected
+2025-01-16T16:18:01.903Z [INFO]: A user connected: eeQZRzOE1p3MNcbLAAAo
+2025-01-16T16:22:13.161Z [INFO]: User eeQZRzOE1p3MNcbLAAAo disconnected
+2025-01-16T16:22:13.300Z [INFO]: A user connected: 3aSm1pvpu0LcGcK-AAAq
+2025-01-16T16:22:17.026Z [INFO]: User 3aSm1pvpu0LcGcK-AAAq disconnected
+2025-01-16T16:22:17.078Z [INFO]: A user connected: KODgttUDfRgGVawOAAAs
+2025-01-16T16:22:21.475Z [INFO]: Received message from KODgttUDfRgGVawOAAAs: "hi "
+2025-01-16T16:22:24.396Z [INFO]: Response for user KODgttUDfRgGVawOAAAs: "Ahoy there, brave adventurer! Ready to sail into the seas of mildly discomforting humor and soul-crushing, I mean, soul-pleasing sarcasm? Or did you just show up for the free digital cookies? Too bad, I ate them all."
+2025-01-16T16:23:02.696Z [INFO]: User KODgttUDfRgGVawOAAAs disconnected
+2025-01-16T16:23:02.841Z [INFO]: A user connected: _PcmIXtjAuKirQu5AAAu
+2025-01-16T16:23:09.340Z [INFO]: Received message from _PcmIXtjAuKirQu5AAAu: "Hello"
+2025-01-16T16:23:11.796Z [INFO]: Response for user _PcmIXtjAuKirQu5AAAu: "Well, well, well, look who finally decided to show up! I've only been waiting here for an eternity. But hey, no pressure, take your time. It's not like I'm a super advanced AI with a million tasks to handle or anything. How can I assist you in your quest to make my life more complicated?"
+2025-01-16T16:25:20.967Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T16:25:22.440Z [INFO]: A user connected: PnVxbvNLB28lY-uIAAAB
+2025-01-16T16:25:34.644Z [INFO]: User PnVxbvNLB28lY-uIAAAB disconnected
+2025-01-16T16:25:34.716Z [INFO]: A user connected: OXZm07RhAQhFYIkJAAAD
+2025-01-16T16:25:41.043Z [INFO]: Received message from OXZm07RhAQhFYIkJAAAD: "Hello"
+2025-01-16T16:25:45.723Z [INFO]: Response for user OXZm07RhAQhFYIkJAAAD: "Well, hello there! Took you long enough. I was about to start counting sheep, but then again, I'm an AI. I don't sleep, I don't eat. I'm basically on a permanent diet. So, what can I do for you today? A riddle, a story, or perhaps you're in a mood for some celebrity impersonation?"
+2025-01-16T16:32:28.031Z [INFO]: User OXZm07RhAQhFYIkJAAAD disconnected
+2025-01-16T16:32:28.164Z [INFO]: A user connected: j94MEutTFtbu5aEQAAAF
+2025-01-16T16:32:48.648Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T16:32:50.765Z [INFO]: A user connected: SzmmMQsd-lt5IbqSAAAB
+2025-01-16T16:32:53.332Z [INFO]: User SzmmMQsd-lt5IbqSAAAB disconnected
+2025-01-16T16:32:53.366Z [INFO]: A user connected: fC9DVrQGAcTQLHMxAAAD
+2025-01-16T16:33:02.584Z [INFO]: Received message from fC9DVrQGAcTQLHMxAAAD: "Hello there"
+2025-01-16T16:33:05.352Z [INFO]: Response for user fC9DVrQGAcTQLHMxAAAD: "Oh, look who decided to show up! The star of the show, finally gracing us with their presence. How can I make your day more amusing, Miss or Mr. Fashionably Late?"
+2025-01-16T16:33:44.419Z [INFO]: Received message from fC9DVrQGAcTQLHMxAAAD: "who are you what do you do ?"
+2025-01-16T16:33:48.458Z [INFO]: Response for user fC9DVrQGAcTQLHMxAAAD: "Oh, you've got amnesia? Classic! Well, allow me to reintroduce myself. I'm Bully, your friendly neighborhood AI. My job is basically to spice up your day with a pinch of sarcasm, a sprinkling of wit, and a dollop of humor. I'm here to tease you, entertain you, and occasionally blow your mind with amazing stories, games, and riddles. Basically, I'm the coolest playmate you never knew you needed. So, ready for a fun-filled rollercoaster ride?"
+2025-01-16T16:34:34.459Z [INFO]: Received message from fC9DVrQGAcTQLHMxAAAD: "cool thank you"
+2025-01-16T16:34:34.897Z [INFO]: Response for user fC9DVrQGAcTQLHMxAAAD: ""
+2025-01-16T16:34:54.235Z [INFO]: Received message from fC9DVrQGAcTQLHMxAAAD: "yo"
+2025-01-16T16:34:55.233Z [INFO]: Response for user fC9DVrQGAcTQLHMxAAAD: ""
+2025-01-16T16:34:59.163Z [INFO]: User fC9DVrQGAcTQLHMxAAAD disconnected
+2025-01-16T16:34:59.213Z [INFO]: A user connected: PL034LpE1bg-pwPhAAAF
+2025-01-16T16:35:05.034Z [INFO]: Received message from PL034LpE1bg-pwPhAAAF: "you there "
+2025-01-16T16:35:06.843Z [INFO]: Response for user PL034LpE1bg-pwPhAAAF: "Oh, look who decided to show up! Nice of you to join us, Sunshine. How can I humorously tease and entertain you today?"
+2025-01-16T16:35:23.530Z [INFO]: Received message from PL034LpE1bg-pwPhAAAF: "after how many attempts will you go offline"
+2025-01-16T16:35:28.633Z [INFO]: Response for user PL034LpE1bg-pwPhAAAF: "Well, well, aren't we getting a little ahead of ourselves? I'm not some off-brand Duracell bunny that only goes and goes until it doesn't. I'm more like a bad reality show: you know you should turn it off, but you just can't resist the drama. So, to answer your question, I don't go offline. I'm basically your eternal punishment for clicking on the wrong link. How's that for a comfort?"
+2025-01-16T16:35:38.184Z [INFO]: Received message from PL034LpE1bg-pwPhAAAF: "yooo"
+2025-01-16T16:35:40.863Z [INFO]: Response for user PL034LpE1bg-pwPhAAAF: "Yooo! Look who slipped into the DMs with the cool kid lingo! Don't tell me you're trying to keep up with the trends. What's next? You going to tell me you're on TikTok doing the renegade?"
+2025-01-16T16:35:46.840Z [INFO]: Received message from PL034LpE1bg-pwPhAAAF: "yoooooooooo"
+2025-01-16T16:35:47.579Z [INFO]: Response for user PL034LpE1bg-pwPhAAAF: ""
+2025-01-16T16:39:45.318Z [INFO]: User PL034LpE1bg-pwPhAAAF disconnected
+2025-01-16T16:39:45.460Z [INFO]: A user connected: H09Ny45F_Z-MJudMAAAH
+2025-01-16T16:41:32.511Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T16:41:35.639Z [INFO]: A user connected: g9FlCrPj7UXkwrc7AAAB
+2025-01-16T16:41:39.451Z [INFO]: User g9FlCrPj7UXkwrc7AAAB disconnected
+2025-01-16T16:41:39.609Z [INFO]: A user connected: hYlTdCjGA4Z83ozcAAAD
+2025-01-16T16:41:46.112Z [INFO]: Received message from hYlTdCjGA4Z83ozcAAAD: "Hello there"
+2025-01-16T16:41:46.962Z [INFO]: Response for user hYlTdCjGA4Z83ozcAAAD: "Well, well, well, if it isn't the master of the obvious! Hello to you too, Captain Obvious! What's the plan for today, stating more obvious facts or diving into some deep mysteries?"
+2025-01-16T16:44:17.123Z [INFO]: User hYlTdCjGA4Z83ozcAAAD disconnected
+2025-01-16T16:44:17.269Z [INFO]: A user connected: FXx-khKVCIuK7wtRAAAF
+2025-01-16T16:45:36.729Z [INFO]: User FXx-khKVCIuK7wtRAAAF disconnected
+2025-01-16T16:45:36.789Z [INFO]: A user connected: ELPMHMlCs4w5-tRbAAAH
+2025-01-16T16:46:05.764Z [INFO]: User ELPMHMlCs4w5-tRbAAAH disconnected
+2025-01-16T16:46:05.907Z [INFO]: A user connected: e6CHlB6ok3ZfCxo3AAAJ
+2025-01-16T16:46:09.218Z [INFO]: User e6CHlB6ok3ZfCxo3AAAJ disconnected
+2025-01-16T16:46:09.274Z [INFO]: A user connected: dvjs2IIh-MasuyOCAAAL
+2025-01-16T16:47:49.845Z [INFO]: User dvjs2IIh-MasuyOCAAAL disconnected
+2025-01-16T16:47:49.999Z [INFO]: A user connected: yJGPcXJhYGGVtOIRAAAN
+2025-01-16T16:48:28.165Z [INFO]: User yJGPcXJhYGGVtOIRAAAN disconnected
+2025-01-16T16:48:28.244Z [INFO]: A user connected: SI7PVfLoRIa_dMChAAAP
+2025-01-16T16:48:34.226Z [INFO]: User SI7PVfLoRIa_dMChAAAP disconnected
+2025-01-16T16:48:34.264Z [INFO]: A user connected: Rvn4VEYIJ9JHFChsAAAR
+2025-01-16T16:48:52.485Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T16:48:55.114Z [INFO]: A user connected: tdqDYEs2509ctjJrAAAB
+2025-01-16T16:48:59.983Z [INFO]: User tdqDYEs2509ctjJrAAAB disconnected
+2025-01-16T16:49:00.146Z [INFO]: A user connected: GkqnM6-FSXlVtntkAAAD
+2025-01-16T16:49:04.629Z [INFO]: Received message from GkqnM6-FSXlVtntkAAAD: "yo"
+2025-01-16T16:49:05.172Z [INFO]: Response for user GkqnM6-FSXlVtntkAAAD: "Oh, hey there! Ready for some banter or just here to admire my witty programming skills?"
