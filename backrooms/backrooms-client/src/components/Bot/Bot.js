@@ -87,7 +87,7 @@ const Bot = () => {
             }`}
           >
             <span className="message-sender">
-              {msg.sender === 'User' ? 'User' : 'Terminal_of_Bully'}:
+              
             </span>{' '}
             {msg.text}
           </div>
