@@ -112,22 +112,12 @@ const getBotBalance = async () => {
 // Helper: Perform token swap
 const performSwap = async (tokenAddress, amount) => {
   try {
-    if (!PublicKey.isOnCurve(new PublicKey(tokenAddress))) {
-      throw new Error('Invalid token address.');
-    }
-
     const tokenPublicKey = new PublicKey(tokenAddress);
-    const transactionSignature = await agent.trade(
-      tokenPublicKey,       // Output token address
-      parseFloat(amount),   // Amount in SOL
-      new PublicKey(botPublicKey), // Bot wallet address
-      300                   // Slippage (3%)
-    );
-    const solscanLink = `https://solscan.io/tx/${transactionSignature}`;
-    return `Swap successful! View it on Solscan: ${solscanLink}`;
+    const signature = await agent.trade(tokenPublicKey, parseFloat(amount), new PublicKey(botPublicKey), 300); // 3% slippage
+    return `Swap successful! Transaction: https://solscan.io/tx/${signature}`;
   } catch (error) {
     logger.error(`Error during token swap: ${error.message}`);
-    return `Failed to swap tokens. Error: ${error.message}`;
+    return 'Failed to swap tokens. Ensure the token address and amount are correct.';
   }
 };
 
@@ -145,66 +135,35 @@ io.on('connection', (socket) => {
     const userMessage = data.text.toLowerCase();
     logger.info(`Received message from ${userId}: "${userMessage}"`);
 
-    if (!userSessions[userId]) userSessions[userId] = {};
-
-    // Swap Flow
-    if (userSessions[userId].swapInProgress) {
-      if (!userSessions[userId].contractAddress) {
-        if (!PublicKey.isOnCurve(new PublicKey(userMessage))) {
-          socket.emit('bot-response', {
-            sender: 'Terminal_of_Bully',
-            text: 'Invalid contract address. Please provide a valid Base58 address.',
-          });
-          return;
-        }
-
-        userSessions[userId].contractAddress = userMessage;
-        socket.emit('bot-response', {
-          sender: 'Terminal_of_Bully',
-          text: 'How much SOL do you want to swap?',
-        });
-        return;
-      }
-
-      if (!userSessions[userId].swapAmount) {
-        if (!/^\d+(\.\d+)?$/.test(userMessage)) {
-          socket.emit('bot-response', {
-            sender: 'Terminal_of_Bully',
-            text: 'Invalid amount. Please provide a numeric value.',
-          });
-          return;
-        }
-
-        userSessions[userId].swapAmount = userMessage;
-
-        const result = await performSwap(userSessions[userId].contractAddress, userSessions[userId].swapAmount);
-        userSessions[userId].swapInProgress = false;
-        delete userSessions[userId].contractAddress;
-        delete userSessions[userId].swapAmount;
-
-        socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: result });
-        return;
-      }
-    }
-
-    // Initiate Swap
-    if (userMessage.includes('swap')) {
-      userSessions[userId].swapInProgress = true;
-      socket.emit('bot-response', {
-        sender: 'Terminal_of_Bully',
-        text: 'Which token do you want to swap to? Provide the contract address.',
-      });
-      return;
-    }
-
-    // Balance Check
     if (userMessage.includes('balance')) {
       const balanceMessage = await getBotBalance();
       socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: balanceMessage });
       return;
     }
 
-    // Default Bully Mode
+    if (userMessage.includes('swap')) {
+      if (!userSessions[userId]?.swapStep) {
+        userSessions[userId] = { swapStep: 1 };
+        socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: 'Which token do you want to swap to? Provide the contract address.' });
+        return;
+      }
+
+      if (userSessions[userId].swapStep === 1) {
+        userSessions[userId].outputMint = userMessage;
+        userSessions[userId].swapStep = 2;
+        socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: 'How much SOL do you want to swap?' });
+        return;
+      }
+
+      if (userSessions[userId].swapStep === 2) {
+        const { outputMint } = userSessions[userId];
+        const swapResult = await performSwap(outputMint, userMessage);
+        delete userSessions[userId].swapStep;
+        socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: swapResult });
+        return;
+      }
+    }
+
     const botResponse = await fetchGPTResponse(userMessage, userId);
     socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: botResponse });
   });
