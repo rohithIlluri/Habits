@@ -2487,3 +2487,25 @@ How can I assist you today? Perhaps with a riddle or an interesting anecdote? Or
 2025-01-16T23:19:22.191Z [ERROR]: Error during token swap: Swap failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
 2025-01-16T23:19:37.398Z [INFO]: Received message from ulQi1oF82wu2dvq8AAAD: "you alive ?"
 2025-01-16T23:19:47.893Z [INFO]: Received message from ulQi1oF82wu2dvq8AAAD: "what is your name "
+2025-01-16T23:30:18.306Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-16T23:30:18.315Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T23:30:22.269Z [INFO]: A user connected: 5P4aEoAUDwt7MfYLAAAB
+2025-01-16T23:30:42.962Z [INFO]: User 5P4aEoAUDwt7MfYLAAAB disconnected
+2025-01-16T23:30:43.138Z [INFO]: A user connected: rl2aGfbvJ2-0zH5iAAAD
+2025-01-16T23:30:49.671Z [INFO]: Received message from rl2aGfbvJ2-0zH5iAAAD: "hi there"
+2025-01-16T23:30:56.750Z [INFO]: Received message from rl2aGfbvJ2-0zH5iAAAD: "what the time is"
+2025-01-16T23:31:05.290Z [INFO]: Received message from rl2aGfbvJ2-0zH5iAAAD: "balance"
+2025-01-16T23:31:11.669Z [INFO]: Received message from rl2aGfbvJ2-0zH5iAAAD: "swap"
+2025-01-16T23:31:14.999Z [INFO]: Received message from rl2aGfbvJ2-0zH5iAAAD: "git config --global user.name "rohith illuri" git config --global user.email "rohithilluri@yourdomain.com""
+2025-01-16T23:31:19.017Z [INFO]: Received message from rl2aGfbvJ2-0zH5iAAAD: "0.01"
+2025-01-16T23:31:19.018Z [ERROR]: Error during token swap: Non-base58 character
+2025-01-16T23:32:03.149Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-16T23:32:03.158Z [INFO]: Server is running on http://localhost:4000
+2025-01-16T23:32:03.237Z [INFO]: A user connected: vqMlJNadR7x1r_R2AAAB
+2025-01-16T23:32:11.799Z [INFO]: User vqMlJNadR7x1r_R2AAAB disconnected
+2025-01-16T23:32:11.938Z [INFO]: A user connected: BC57Y-98OYupTCXbAAAD
+2025-01-16T23:32:15.690Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "hi there"
+2025-01-16T23:32:23.569Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "wssup"
+2025-01-16T23:32:32.245Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "balance"
+2025-01-16T23:32:36.180Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "swap"
+2025-01-16T23:32:51.067Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"

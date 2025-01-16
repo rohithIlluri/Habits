@@ -80,6 +80,7 @@ const fetchGPTResponse = async (userMessage, userId) => {
       return "Hmm, I seem to have spaced out. Can you try that again?";
     }
 
+    // Update user session context
     userSessions[userId] = {
       ...userSessions[userId],
       context: `${userContext}\nUser: ${userMessage}\nTerminal_of_Bully: ${botResponse}`
@@ -108,9 +109,13 @@ const getBotBalance = async () => {
   }
 };
 
-// Helper: Perform token swap and track status
+// Helper: Perform token swap
 const performSwap = async (tokenAddress, amount) => {
   try {
+    if (!PublicKey.isOnCurve(new PublicKey(tokenAddress))) {
+      throw new Error('Invalid token address.');
+    }
+
     const tokenPublicKey = new PublicKey(tokenAddress);
     const transactionSignature = await agent.trade(
       tokenPublicKey,       // Output token address
@@ -142,9 +147,17 @@ io.on('connection', (socket) => {
 
     if (!userSessions[userId]) userSessions[userId] = {};
 
-    // Pause bully mode for swap flow
+    // Swap Flow
     if (userSessions[userId].swapInProgress) {
       if (!userSessions[userId].contractAddress) {
+        if (!PublicKey.isOnCurve(new PublicKey(userMessage))) {
+          socket.emit('bot-response', {
+            sender: 'Terminal_of_Bully',
+            text: 'Invalid contract address. Please provide a valid Base58 address.',
+          });
+          return;
+        }
+
         userSessions[userId].contractAddress = userMessage;
         socket.emit('bot-response', {
           sender: 'Terminal_of_Bully',
@@ -154,6 +167,14 @@ io.on('connection', (socket) => {
       }
 
       if (!userSessions[userId].swapAmount) {
+        if (!/^\d+(\.\d+)?$/.test(userMessage)) {
+          socket.emit('bot-response', {
+            sender: 'Terminal_of_Bully',
+            text: 'Invalid amount. Please provide a numeric value.',
+          });
+          return;
+        }
+
         userSessions[userId].swapAmount = userMessage;
 
         const result = await performSwap(userSessions[userId].contractAddress, userSessions[userId].swapAmount);
@@ -166,6 +187,7 @@ io.on('connection', (socket) => {
       }
     }
 
+    // Initiate Swap
     if (userMessage.includes('swap')) {
       userSessions[userId].swapInProgress = true;
       socket.emit('bot-response', {
@@ -175,13 +197,14 @@ io.on('connection', (socket) => {
       return;
     }
 
+    // Balance Check
     if (userMessage.includes('balance')) {
       const balanceMessage = await getBotBalance();
       socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: balanceMessage });
       return;
     }
 
-    // Default bully response
+    // Default Bully Mode
     const botResponse = await fetchGPTResponse(userMessage, userId);
     socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: botResponse });
   });
