@@ -2509,3 +2509,147 @@ How can I assist you today? Perhaps with a riddle or an interesting anecdote? Or
 2025-01-16T23:32:32.245Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "balance"
 2025-01-16T23:32:36.180Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "swap"
 2025-01-16T23:32:51.067Z [INFO]: Received message from BC57Y-98OYupTCXbAAAD: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"
+2025-01-17T12:43:23.104Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T12:43:23.120Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T12:43:59.637Z [INFO]: A user connected: scMbQe-qWH0_CcmbAAAB
+2025-01-17T12:44:05.283Z [INFO]: Received message from scMbQe-qWH0_CcmbAAAB: "hi buddy"
+2025-01-17T12:44:20.117Z [INFO]: Received message from scMbQe-qWH0_CcmbAAAB: "i want to swap some tokens "
+2025-01-17T12:44:35.374Z [INFO]: Received message from scMbQe-qWH0_CcmbAAAB: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"
+2025-01-17T12:45:02.949Z [INFO]: Received message from scMbQe-qWH0_CcmbAAAB: "what is the balance ?"
+2025-01-17T12:45:21.571Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T12:45:21.577Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T12:45:26.203Z [INFO]: A user connected: DooTMWCjnfeusY1pAAAB
+2025-01-17T12:45:26.210Z [INFO]: Received message from DooTMWCjnfeusY1pAAAB: "yo "
+2025-01-17T12:45:38.089Z [INFO]: Received message from DooTMWCjnfeusY1pAAAB: "what is the balance"
+2025-01-17T12:45:45.980Z [INFO]: Received message from DooTMWCjnfeusY1pAAAB: "let's swap then"
+2025-01-17T12:45:48.561Z [INFO]: Received message from DooTMWCjnfeusY1pAAAB: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"
+2025-01-17T12:46:40.067Z [INFO]: Received message from DooTMWCjnfeusY1pAAAB: "it is correct"
+2025-01-17T12:51:27.397Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T12:51:27.405Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T12:51:28.201Z [INFO]: A user connected: C_zG8wf7sGB1d1erAAAB
+2025-01-17T12:51:33.053Z [INFO]: User C_zG8wf7sGB1d1erAAAB disconnected
+2025-01-17T12:51:33.175Z [INFO]: A user connected: UDkcisfzKGT1r-ReAAAD
+2025-01-17T12:51:40.739Z [INFO]: Received message from UDkcisfzKGT1r-ReAAAD: "hi there"
+2025-01-17T12:51:52.953Z [INFO]: Received message from UDkcisfzKGT1r-ReAAAD: "what's the balance you have now ?"
+2025-01-17T12:52:29.561Z [INFO]: Received message from UDkcisfzKGT1r-ReAAAD: "are you afraid of anything "
+2025-01-17T12:52:59.186Z [INFO]: Received message from UDkcisfzKGT1r-ReAAAD: "dont worry we have wifi now let's swap some tokens "
+2025-01-17T12:53:10.344Z [INFO]: Received message from UDkcisfzKGT1r-ReAAAD: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"
+2025-01-17T12:53:19.954Z [INFO]: Received message from UDkcisfzKGT1r-ReAAAD: "0.005"
+2025-01-17T12:53:20.666Z [ERROR]: Error during token swap: Swap failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+2025-01-17T13:01:50.703Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T13:01:50.711Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T13:01:51.203Z [INFO]: A user connected: Z7FUhtTEMZu9sXx3AAAB
+2025-01-17T13:02:58.351Z [INFO]: User Z7FUhtTEMZu9sXx3AAAB disconnected
+2025-01-17T13:02:58.483Z [INFO]: A user connected: nHf8pMExKm9oa-yyAAAD
+2025-01-17T13:03:03.194Z [INFO]: Received message from nHf8pMExKm9oa-yyAAAD: "hi bully"
+2025-01-17T13:03:12.927Z [INFO]: Received message from nHf8pMExKm9oa-yyAAAD: "shut up okay "
+2025-01-17T13:03:21.683Z [INFO]: Received message from nHf8pMExKm9oa-yyAAAD: "swap now "
+2025-01-17T13:05:10.402Z [INFO]: Received message from nHf8pMExKm9oa-yyAAAD: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"
+2025-01-17T13:05:16.660Z [INFO]: Received message from nHf8pMExKm9oa-yyAAAD: "0.05 "
+2025-01-17T13:05:16.661Z [INFO]: Performing swap: Token Address - 7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr, Amount - 0.05
+2025-01-17T13:05:17.394Z [ERROR]: Error during token swap: Swap failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+2025-01-17T13:08:25.069Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T13:08:25.076Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T13:08:27.202Z [INFO]: User connected: _59RdQS5bbXJmhO_AAAB
+2025-01-17T13:08:30.688Z [INFO]: User disconnected: _59RdQS5bbXJmhO_AAAB
+2025-01-17T13:08:30.871Z [INFO]: User connected: Qx3JUZ_y_82IPbnEAAAD
+2025-01-17T13:08:38.148Z [INFO]: Message from Qx3JUZ_y_82IPbnEAAAD: "Hi bully"
+2025-01-17T13:08:50.750Z [INFO]: Message from Qx3JUZ_y_82IPbnEAAAD: "swap"
+2025-01-17T13:09:00.832Z [INFO]: Message from Qx3JUZ_y_82IPbnEAAAD: "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"
+2025-01-17T13:09:05.396Z [INFO]: Message from Qx3JUZ_y_82IPbnEAAAD: "0.05"
+2025-01-17T13:09:05.396Z [INFO]: Initiating swap: Output Token - 7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr, Amount - 0.05
+2025-01-17T13:09:05.849Z [ERROR]: Error during token swap: Swap failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+2025-01-17T13:09:13.074Z [INFO]: Message from Qx3JUZ_y_82IPbnEAAAD: "swap"
+2025-01-17T13:09:17.331Z [INFO]: Message from Qx3JUZ_y_82IPbnEAAAD: "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"
+2025-01-17T13:09:21.132Z [INFO]: Message from Qx3JUZ_y_82IPbnEAAAD: "0.005"
+2025-01-17T13:09:21.133Z [INFO]: Initiating swap: Output Token - 7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr, Amount - 0.005
+2025-01-17T13:09:21.525Z [ERROR]: Error during token swap: Swap failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+2025-01-17T13:11:49.039Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T13:11:49.047Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T13:11:49.204Z [INFO]: User connected: KpWXQrLc60Qw91bPAAAB
+2025-01-17T13:11:53.904Z [INFO]: User disconnected: KpWXQrLc60Qw91bPAAAB
+2025-01-17T13:11:54.095Z [INFO]: User connected: 4SrthNcMrxi2YFFFAAAD
+2025-01-17T13:12:01.193Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "hi bitch"
+2025-01-17T13:12:09.351Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "wassup"
+2025-01-17T13:12:19.605Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "what's the balance"
+2025-01-17T13:12:25.151Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "wanna swap ?"
+2025-01-17T13:12:34.181Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"
+2025-01-17T13:12:39.272Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "0.005"
+2025-01-17T13:12:39.272Z [INFO]: Initiating swap: Token Address - 7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr, Amount - 0.005
+2025-01-17T13:12:39.886Z [ERROR]: Error during token swap: Swap failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+2025-01-17T13:12:50.748Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "swap"
+2025-01-17T13:12:55.231Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr"
+2025-01-17T13:12:59.254Z [INFO]: Message from 4SrthNcMrxi2YFFFAAAD: "0.01"
+2025-01-17T13:12:59.255Z [INFO]: Initiating swap: Token Address - 7gcihgdb8fe6knjn2mytkzzcrjqy3t9ghdc8uhymw2hr, Amount - 0.01
+2025-01-17T13:12:59.665Z [ERROR]: Error during token swap: Swap failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+2025-01-17T14:10:00.304Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T14:10:00.312Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T14:10:05.104Z [INFO]: User connected: 3qr4QuAWUoRUyOJDAAAB
+2025-01-17T14:10:07.635Z [INFO]: User disconnected: 3qr4QuAWUoRUyOJDAAAB
+2025-01-17T14:10:07.852Z [INFO]: User connected: Pmyq7umnrKLPyEv3AAAD
+2025-01-17T14:10:17.912Z [INFO]: Message from Pmyq7umnrKLPyEv3AAAD: "knock knock"
+2025-01-17T14:10:33.988Z [INFO]: Message from Pmyq7umnrKLPyEv3AAAD: "who you"
+2025-01-17T14:11:01.501Z [INFO]: Message from Pmyq7umnrKLPyEv3AAAD: "whats the balance"
+2025-01-17T14:11:11.058Z [INFO]: Message from Pmyq7umnrKLPyEv3AAAD: "wanna do a swap"
+2025-01-17T14:11:50.658Z [INFO]: Message from Pmyq7umnrKLPyEv3AAAD: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263"
+2025-01-17T14:17:32.934Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T14:17:32.940Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T14:17:34.121Z [INFO]: User connected: KvznUFLl1qK60cjYAAAB
+2025-01-17T14:17:36.511Z [INFO]: User disconnected: KvznUFLl1qK60cjYAAAB
+2025-01-17T14:17:36.702Z [INFO]: User connected: Qk2NdGVR3cRe9yC_AAAD
+2025-01-17T14:17:44.224Z [INFO]: Message from Qk2NdGVR3cRe9yC_AAAD: "who are u ?"
+2025-01-17T14:17:55.885Z [INFO]: Message from Qk2NdGVR3cRe9yC_AAAD: "what's your balance"
+2025-01-17T14:18:05.342Z [INFO]: Message from Qk2NdGVR3cRe9yC_AAAD: "do some swaps"
+2025-01-17T14:18:16.354Z [INFO]: Message from Qk2NdGVR3cRe9yC_AAAD: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263"
+2025-01-17T14:20:27.256Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T14:20:27.262Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T14:20:29.123Z [INFO]: User connected: NOgigayUNyV67lkCAAAB
+2025-01-17T14:20:31.630Z [INFO]: User disconnected: NOgigayUNyV67lkCAAAB
+2025-01-17T14:20:31.809Z [INFO]: User connected: Ear_Ml2V0kr5ur_fAAAD
+2025-01-17T14:20:37.693Z [INFO]: Message from Ear_Ml2V0kr5ur_fAAAD: "Hello"
+2025-01-17T14:21:10.868Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T14:21:10.876Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T14:21:12.940Z [INFO]: User connected: BbILtOAaXxJ6C78QAAAB
+2025-01-17T14:21:14.021Z [INFO]: User disconnected: BbILtOAaXxJ6C78QAAAB
+2025-01-17T14:21:14.240Z [INFO]: User connected: PxPh_7MVbnwJp2S4AAAD
+2025-01-17T14:21:20.216Z [INFO]: Message from PxPh_7MVbnwJp2S4AAAD: "hello"
+2025-01-17T14:23:22.778Z [INFO]: User disconnected: PxPh_7MVbnwJp2S4AAAD
+2025-01-17T14:23:23.038Z [INFO]: User connected: wywkspJEZhmEXsc0AAAF
+2025-01-17T14:25:20.650Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T14:25:20.658Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T14:25:21.136Z [INFO]: User connected: ayHiCWocrHUpBi7RAAAB
+2025-01-17T14:25:25.357Z [INFO]: User disconnected: ayHiCWocrHUpBi7RAAAB
+2025-01-17T14:25:25.551Z [INFO]: User connected: 4PwBsbNU3PbOzqV_AAAD
+2025-01-17T14:25:33.392Z [INFO]: Message from 4PwBsbNU3PbOzqV_AAAD: "yo"
+2025-01-17T14:25:45.131Z [INFO]: Message from 4PwBsbNU3PbOzqV_AAAD: "swap"
+2025-01-17T14:25:54.560Z [INFO]: Message from 4PwBsbNU3PbOzqV_AAAD: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263"
+2025-01-17T14:30:15.951Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T14:30:15.958Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T14:55:15.682Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T14:55:15.690Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T14:55:21.196Z [INFO]: User connected: 6ra1g1J_K4q2j33tAAAB
+2025-01-17T14:55:33.940Z [INFO]: User disconnected: 6ra1g1J_K4q2j33tAAAB
+2025-01-17T14:57:35.772Z [INFO]: User connected: Hjiq109W7kfZSAkaAAAD
+2025-01-17T15:01:08.742Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T15:01:08.748Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T15:01:11.171Z [INFO]: User connected: lVa6zI4v_HBWPnmOAAAB
+2025-01-17T15:01:12.729Z [INFO]: User disconnected: lVa6zI4v_HBWPnmOAAAB
+2025-01-17T15:01:12.922Z [INFO]: User connected: yiliQd_qm2_vhuc7AAAD
+2025-01-17T15:01:18.763Z [INFO]: Message from yiliQd_qm2_vhuc7AAAD: "hello"
+2025-01-17T15:01:22.331Z [INFO]: Message from yiliQd_qm2_vhuc7AAAD: "aaaaa"
+2025-01-17T15:01:33.163Z [INFO]: Message from yiliQd_qm2_vhuc7AAAD: "swap you dumb"
+2025-01-17T15:02:04.545Z [INFO]: Message from yiliQd_qm2_vhuc7AAAD: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263"
+2025-01-17T15:37:37.418Z [INFO]: User disconnected: yiliQd_qm2_vhuc7AAAD
+2025-01-17T15:37:37.613Z [INFO]: User connected: pCRbHQa1f6zIwFh4AAAF
+2025-01-17T16:40:35.669Z [INFO]: User disconnected: pCRbHQa1f6zIwFh4AAAF
+2025-01-17T16:40:37.110Z [INFO]: User connected: jjmslKNHy50DzzvFAAAH
+2025-01-17T17:20:49.862Z [INFO]: User disconnected: jjmslKNHy50DzzvFAAAH
+2025-01-17T17:20:50.959Z [INFO]: User connected: IbHZKmB0LsfyT1-mAAAJ
+2025-01-17T19:59:30.448Z [INFO]: Bot wallet initialized. Public Key: 9NpWxUqaDEm2XQQkdBp51cdSNco67EYc2wQ8a3yCB3KL
+2025-01-17T19:59:30.455Z [INFO]: Server is running on http://localhost:4000
+2025-01-17T19:59:31.198Z [INFO]: User connected: hYGpvKVwqqVg1f2yAAAB
+2025-01-17T19:59:33.205Z [INFO]: User disconnected: hYGpvKVwqqVg1f2yAAAB
+2025-01-17T19:59:33.449Z [INFO]: User connected: tqGQyvVp45SttM04AAAD
+2025-01-17T19:59:46.008Z [INFO]: Message from tqGQyvVp45SttM04AAAD: "hi"
+2025-01-17T19:59:51.624Z [INFO]: Message from tqGQyvVp45SttM04AAAD: "swap"
+2025-01-17T20:00:13.041Z [INFO]: Message from tqGQyvVp45SttM04AAAD: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263"

@@ -112,105 +112,102 @@ const getBotBalance = async () => {
 // Helper: Perform token swap
 const performSwap = async (tokenAddress, amount) => {
   try {
-    if (!PublicKey.isOnCurve(new PublicKey(tokenAddress))) {
-      throw new Error('Invalid token address.');
-    }
-
     const tokenPublicKey = new PublicKey(tokenAddress);
+    const parsedAmount = parseFloat(amount);
+
+    logger.info(`Initiating swap: Token Address - ${tokenAddress}, Amount - ${parsedAmount} SOL`);
+
     const transactionSignature = await agent.trade(
       tokenPublicKey,       // Output token address
-      parseFloat(amount),   // Amount in SOL
-      new PublicKey(botPublicKey), // Bot wallet address
-      300                   // Slippage (3%)
+      parsedAmount,         // Amount in SOL
+      new PublicKey(botPublicKey), // Bot wallet as source
+      300                   // Slippage tolerance (3%)
     );
+
     const solscanLink = `https://solscan.io/tx/${transactionSignature}`;
-    return `Swap successful! View it on Solscan: ${solscanLink}`;
+    logger.info(`Swap successful. Transaction: ${transactionSignature}`);
+    return `Swap successful! View transaction: ${solscanLink}`;
   } catch (error) {
     logger.error(`Error during token swap: ${error.message}`);
-    return `Failed to swap tokens. Error: ${error.message}`;
+    return `Swap failed: ${error.message}`;
   }
 };
 
 // Socket.io events
 io.on('connection', (socket) => {
   const userId = socket.id;
-  logger.info(`A user connected: ${userId}`);
+  logger.info(`User connected: ${userId}`);
+
+  let swapSession = { step: 0, tokenAddress: null, amount: null };
 
   socket.on('disconnect', () => {
-    logger.info(`User ${userId} disconnected`);
+    logger.info(`User disconnected: ${userId}`);
     delete userSessions[userId];
   });
 
   socket.on('user-message', async (data) => {
-    const userMessage = data.text.toLowerCase();
-    logger.info(`Received message from ${userId}: "${userMessage}"`);
-
-    if (!userSessions[userId]) userSessions[userId] = {};
-
-    // Swap Flow
-    if (userSessions[userId].swapInProgress) {
-      if (!userSessions[userId].contractAddress) {
-        if (!PublicKey.isOnCurve(new PublicKey(userMessage))) {
-          socket.emit('bot-response', {
-            sender: 'Terminal_of_Bully',
-            text: 'Invalid contract address. Please provide a valid Base58 address.',
-          });
-          return;
-        }
-
-        userSessions[userId].contractAddress = userMessage;
+    const userMessage = data.text.trim().toLowerCase();
+    logger.info(`Message from ${userId}: "${userMessage}"`);
+  
+    if (swapSession.step === 1) {
+      try {
+        const tokenPublicKey = new PublicKey(userMessage);
+        swapSession.tokenAddress = tokenPublicKey.toString();
+        swapSession.step = 2;
         socket.emit('bot-response', {
           sender: 'Terminal_of_Bully',
           text: 'How much SOL do you want to swap?',
         });
-        return;
+      } catch {
+        socket.emit('bot-response', {
+          sender: 'Terminal_of_Bully',
+          text: 'Invalid contract address. Provide a valid Base58 address.',
+        });
       }
-
-      if (!userSessions[userId].swapAmount) {
-        if (!/^\d+(\.\d+)?$/.test(userMessage)) {
-          socket.emit('bot-response', {
-            sender: 'Terminal_of_Bully',
-            text: 'Invalid amount. Please provide a numeric value.',
-          });
-          return;
-        }
-
-        userSessions[userId].swapAmount = userMessage;
-
-        const result = await performSwap(userSessions[userId].contractAddress, userSessions[userId].swapAmount);
-        userSessions[userId].swapInProgress = false;
-        delete userSessions[userId].contractAddress;
-        delete userSessions[userId].swapAmount;
-
-        socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: result });
-        return;
-      }
+      return;
     }
-
-    // Initiate Swap
+  
+    if (swapSession.step === 2) {
+      if (!/^\d+(\.\d+)?$/.test(userMessage)) {
+        socket.emit('bot-response', {
+          sender: 'Terminal_of_Bully',
+          text: 'Invalid amount. Provide a numeric value.',
+        });
+        return;
+      }
+      const result = await performSwap(swapSession.tokenAddress, userMessage);
+      swapSession = { step: 0, tokenAddress: null, amount: null };
+      socket.emit('bot-response', {
+        sender: 'Terminal_of_Bully',
+        text: result.message,
+      });
+      return;
+    }
+  
     if (userMessage.includes('swap')) {
-      userSessions[userId].swapInProgress = true;
+      swapSession.step = 1;
       socket.emit('bot-response', {
         sender: 'Terminal_of_Bully',
         text: 'Which token do you want to swap to? Provide the contract address.',
       });
       return;
     }
-
-    // Balance Check
+  
     if (userMessage.includes('balance')) {
       const balanceMessage = await getBotBalance();
-      socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: balanceMessage });
+      socket.emit('bot-response', {
+        sender: 'Terminal_of_Bully',
+        text: balanceMessage,
+      });
       return;
     }
-
-    // Default Bully Mode
+  
     const botResponse = await fetchGPTResponse(userMessage, userId);
     socket.emit('bot-response', { sender: 'Terminal_of_Bully', text: botResponse });
   });
 });
 
-// Start the server
+// Start server
 server.listen(4000, () => {
   logger.info('Server is running on http://localhost:4000');
 });
